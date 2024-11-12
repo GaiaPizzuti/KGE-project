@@ -1,0 +1,3652 @@
+[
+    {
+        "project_id": 24,
+        "project_code": "P2016-24",
+        "total_cost": 8000000.0
+    },
+    {
+        "project_id": 29,
+        "project_code": "P2016-29",
+        "total_cost": 9960000.0
+    },
+    {
+        "project_id": 1028,
+        "project_code": "P2016-1028",
+        "total_cost": 7800000.0
+    },
+    {
+        "project_id": 1030,
+        "project_code": "P2016-1030",
+        "total_cost": 5000000.0
+    },
+    {
+        "project_id": 1031,
+        "project_code": "P2016-1031",
+        "total_cost": 7000000.0
+    },
+    {
+        "project_id": 1033,
+        "project_code": "P2016-1033",
+        "total_cost": 27000000.0
+    },
+    {
+        "project_id": 1034,
+        "project_code": "P2016-1034",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 1035,
+        "project_code": "P2016-1035",
+        "total_cost": 27999999.0
+    },
+    {
+        "project_id": 1036,
+        "project_code": "P2016-1036",
+        "total_cost": 26800000.0
+    },
+    {
+        "project_id": 1038,
+        "project_code": "P2016-1038",
+        "total_cost": 7500000.0
+    },
+    {
+        "project_id": 1039,
+        "project_code": "P2016-1039",
+        "total_cost": 7075000.0
+    },
+    {
+        "project_id": 1042,
+        "project_code": "P2016-1042",
+        "total_cost": 1000000.0
+    },
+    {
+        "project_id": 1043,
+        "project_code": "P2016-1043",
+        "total_cost": 6000000.0
+    },
+    {
+        "project_id": 1044,
+        "project_code": "P2016-1044",
+        "total_cost": 13999999.5
+    },
+    {
+        "project_id": 1046,
+        "project_code": "P2016-1046",
+        "total_cost": 6000000.0
+    },
+    {
+        "project_id": 1047,
+        "project_code": "P2016-1047",
+        "total_cost": 30294000.0
+    },
+    {
+        "project_id": 1048,
+        "project_code": "P2016-1048",
+        "total_cost": 30000000.0
+    },
+    {
+        "project_id": 1049,
+        "project_code": "P2016-1049",
+        "total_cost": 65600000.0
+    },
+    {
+        "project_id": 1051,
+        "project_code": "P2016-1051",
+        "total_cost": 8808221.0
+    },
+    {
+        "project_id": 1053,
+        "project_code": "P2016-1053",
+        "total_cost": 26999999.5
+    },
+    {
+        "project_id": 1056,
+        "project_code": "P2016-1056",
+        "total_cost": 5707000.0
+    },
+    {
+        "project_id": 1059,
+        "project_code": "P2016-1059",
+        "total_cost": 4999900.0
+    },
+    {
+        "project_id": 1060,
+        "project_code": "P2016-1060",
+        "total_cost": 5200090.0
+    },
+    {
+        "project_id": 1061,
+        "project_code": "P2016-1061",
+        "total_cost": 14830500.0
+    },
+    {
+        "project_id": 1063,
+        "project_code": "P2016-1063",
+        "total_cost": 6000000.0
+    },
+    {
+        "project_id": 1064,
+        "project_code": "P2016-1064",
+        "total_cost": 7000000.0
+    },
+    {
+        "project_id": 1070,
+        "project_code": "P2016-1070",
+        "total_cost": 46122426.25
+    },
+    {
+        "project_id": 1071,
+        "project_code": "P2016-1071",
+        "total_cost": 25000000.0
+    },
+    {
+        "project_id": 1072,
+        "project_code": "P2016-1072",
+        "total_cost": 25200000.0
+    },
+    {
+        "project_id": 1076,
+        "project_code": "P2016-1076",
+        "total_cost": 28000000.0
+    },
+    {
+        "project_id": 1080,
+        "project_code": "P2016-1080",
+        "total_cost": 6500000.0
+    },
+    {
+        "project_id": 1083,
+        "project_code": "P2016-1083",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 1084,
+        "project_code": "P2016-1084",
+        "total_cost": 750000.0
+    },
+    {
+        "project_id": 1085,
+        "project_code": "P2016-1085",
+        "total_cost": 9000000.0
+    },
+    {
+        "project_id": 1086,
+        "project_code": "P2016-1086",
+        "total_cost": 70000000.0
+    },
+    {
+        "project_id": 1090,
+        "project_code": "P2016-1090",
+        "total_cost": 26720000.0
+    },
+    {
+        "project_id": 1091,
+        "project_code": "P2016-1091",
+        "total_cost": 1110000.0
+    },
+    {
+        "project_id": 1093,
+        "project_code": "P2016-1093",
+        "total_cost": 14999310.0
+    },
+    {
+        "project_id": 1100,
+        "project_code": "P2016-1100",
+        "total_cost": 9000000.0
+    },
+    {
+        "project_id": 1102,
+        "project_code": "P2016-1102",
+        "total_cost": 9000000.0
+    },
+    {
+        "project_id": 1103,
+        "project_code": "P2016-1103",
+        "total_cost": 19800000.0
+    },
+    {
+        "project_id": 1105,
+        "project_code": "P2016-1105",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 1106,
+        "project_code": "P2016-1106",
+        "total_cost": 20000000.0
+    },
+    {
+        "project_id": 1108,
+        "project_code": "P2016-1108",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 1111,
+        "project_code": "P2016-1111",
+        "total_cost": 14000000.0
+    },
+    {
+        "project_id": 1115,
+        "project_code": "P2016-1115",
+        "total_cost": 19770000.0
+    },
+    {
+        "project_id": 1117,
+        "project_code": "P2016-1117",
+        "total_cost": 8055000.0
+    },
+    {
+        "project_id": 1118,
+        "project_code": "P2016-1118",
+        "total_cost": 8000000.0
+    },
+    {
+        "project_id": 1121,
+        "project_code": "P2016-1121",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 1125,
+        "project_code": "P2016-1125",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 1127,
+        "project_code": "P2016-1127",
+        "total_cost": 14000000.0
+    },
+    {
+        "project_id": 1128,
+        "project_code": "P2016-1128",
+        "total_cost": 9105990.0
+    },
+    {
+        "project_id": 1129,
+        "project_code": "P2016-1129",
+        "total_cost": 19999400.0
+    },
+    {
+        "project_id": 1130,
+        "project_code": "P2016-1130",
+        "total_cost": 9980000.0
+    },
+    {
+        "project_id": 1131,
+        "project_code": "P2016-1131",
+        "total_cost": 19500000.0
+    },
+    {
+        "project_id": 1133,
+        "project_code": "P2016-1133",
+        "total_cost": 19000000.0
+    },
+    {
+        "project_id": 1134,
+        "project_code": "P2016-1134",
+        "total_cost": 9998000.0
+    },
+    {
+        "project_id": 1139,
+        "project_code": "P2016-1139",
+        "total_cost": 19848500.0
+    },
+    {
+        "project_id": 1141,
+        "project_code": "P2016-1141",
+        "total_cost": 13995000.0
+    },
+    {
+        "project_id": 1144,
+        "project_code": "P2016-1144",
+        "total_cost": 9290000.0
+    },
+    {
+        "project_id": 1148,
+        "project_code": "P2016-1148",
+        "total_cost": 9932000.0
+    },
+    {
+        "project_id": 1151,
+        "project_code": "P2016-1151",
+        "total_cost": 8000000.0
+    },
+    {
+        "project_id": 1157,
+        "project_code": "P2016-1157",
+        "total_cost": 1000000.0
+    },
+    {
+        "project_id": 1159,
+        "project_code": "P2016-1159",
+        "total_cost": 13632000.0
+    },
+    {
+        "project_id": 1161,
+        "project_code": "P2016-1161",
+        "total_cost": 40000000.0
+    },
+    {
+        "project_id": 1165,
+        "project_code": "P2016-1165",
+        "total_cost": 3402150.0
+    },
+    {
+        "project_id": 1166,
+        "project_code": "P2016-1166",
+        "total_cost": 27880000.0
+    },
+    {
+        "project_id": 1170,
+        "project_code": "P2016-1170",
+        "total_cost": 5000000.0
+    },
+    {
+        "project_id": 1173,
+        "project_code": "P2016-1173",
+        "total_cost": 34999999.75
+    },
+    {
+        "project_id": 1179,
+        "project_code": "P2016-1179",
+        "total_cost": 6000000.0
+    },
+    {
+        "project_id": 1180,
+        "project_code": "P2016-1180",
+        "total_cost": 5000.1099853515625
+    },
+    {
+        "project_id": 1183,
+        "project_code": "P2016-1183",
+        "total_cost": 7400000.0
+    },
+    {
+        "project_id": 1184,
+        "project_code": "P2016-1184",
+        "total_cost": 10.0
+    },
+    {
+        "project_id": 1185,
+        "project_code": "P2016-1185",
+        "total_cost": 6700000.0
+    },
+    {
+        "project_id": 1186,
+        "project_code": "P2016-1186",
+        "total_cost": 7000000.0
+    },
+    {
+        "project_id": 1189,
+        "project_code": "P2016-1189",
+        "total_cost": 60000000.0
+    },
+    {
+        "project_id": 1198,
+        "project_code": "P2016-1198",
+        "total_cost": 18000.25
+    },
+    {
+        "project_id": 1199,
+        "project_code": "P2016-1199",
+        "total_cost": 74199923.0
+    },
+    {
+        "project_id": 1201,
+        "project_code": "P2016-1201",
+        "total_cost": 7000000.0
+    },
+    {
+        "project_id": 1213,
+        "project_code": "P2016-1213",
+        "total_cost": 23104030.0
+    },
+    {
+        "project_id": 1215,
+        "project_code": "P2016-1215",
+        "total_cost": 10939457.0
+    },
+    {
+        "project_id": 1216,
+        "project_code": "P2016-1216",
+        "total_cost": 8000000.0
+    },
+    {
+        "project_id": 1217,
+        "project_code": "P2016-1217",
+        "total_cost": 12000000.0
+    },
+    {
+        "project_id": 1218,
+        "project_code": "P2016-1218",
+        "total_cost": 12000000.0
+    },
+    {
+        "project_id": 1220,
+        "project_code": "P2016-1220",
+        "total_cost": 8000000.0
+    },
+    {
+        "project_id": 1221,
+        "project_code": "P2016-1221",
+        "total_cost": 11000000.0
+    },
+    {
+        "project_id": 1222,
+        "project_code": "P2016-1222",
+        "total_cost": 11999.5
+    },
+    {
+        "project_id": 1223,
+        "project_code": "P2016-1223",
+        "total_cost": 12000000.0
+    },
+    {
+        "project_id": 1225,
+        "project_code": "P2016-1225",
+        "total_cost": 9000000.0
+    },
+    {
+        "project_id": 1227,
+        "project_code": "P2016-1227",
+        "total_cost": 19709510.0
+    },
+    {
+        "project_id": 1228,
+        "project_code": "P2016-1228",
+        "total_cost": 8000000.0
+    },
+    {
+        "project_id": 1230,
+        "project_code": "P2016-1230",
+        "total_cost": 12226500.0
+    },
+    {
+        "project_id": 1231,
+        "project_code": "P2016-1231",
+        "total_cost": 6000000.0
+    },
+    {
+        "project_id": 1237,
+        "project_code": "P2016-1237",
+        "total_cost": 25200000.0
+    },
+    {
+        "project_id": 1238,
+        "project_code": "P2016-1238",
+        "total_cost": 4670432.0
+    },
+    {
+        "project_id": 1248,
+        "project_code": "P2016-1248",
+        "total_cost": 24054825.0
+    },
+    {
+        "project_id": 1249,
+        "project_code": "P2016-1249",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 1251,
+        "project_code": "P2016-1251",
+        "total_cost": 21220000.0
+    },
+    {
+        "project_id": 1253,
+        "project_code": "P2016-1253",
+        "total_cost": 16000000.0
+    },
+    {
+        "project_id": 1255,
+        "project_code": "P2016-1255",
+        "total_cost": 18000000.0
+    },
+    {
+        "project_id": 1261,
+        "project_code": "P2016-1261",
+        "total_cost": 14000000.0
+    },
+    {
+        "project_id": 1265,
+        "project_code": "P2016-1265",
+        "total_cost": 12000000.0
+    },
+    {
+        "project_id": 1281,
+        "project_code": "P2016-1281",
+        "total_cost": 18000000.0
+    },
+    {
+        "project_id": 1287,
+        "project_code": "P2016-1287",
+        "total_cost": 8000000.0
+    },
+    {
+        "project_id": 1289,
+        "project_code": "P2016-1289",
+        "total_cost": 8053000.0
+    },
+    {
+        "project_id": 1293,
+        "project_code": "P2016-1293",
+        "total_cost": 80000000.0
+    },
+    {
+        "project_id": 1298,
+        "project_code": "P2016-1298",
+        "total_cost": 7550000.0
+    },
+    {
+        "project_id": 1300,
+        "project_code": "P2016-1300",
+        "total_cost": 40652.0
+    },
+    {
+        "project_id": 1301,
+        "project_code": "P2017-1301",
+        "total_cost": 7200000.0
+    },
+    {
+        "project_id": 1302,
+        "project_code": "P2017-1302",
+        "total_cost": 9000000.0
+    },
+    {
+        "project_id": 1303,
+        "project_code": "P2017-1303",
+        "total_cost": 9000000.0
+    },
+    {
+        "project_id": 1304,
+        "project_code": "P2017-1304",
+        "total_cost": 45000000.0
+    },
+    {
+        "project_id": 1308,
+        "project_code": "P2017-1308",
+        "total_cost": 17999999.75
+    },
+    {
+        "project_id": 1318,
+        "project_code": "P2017-1318",
+        "total_cost": 12000000.0
+    },
+    {
+        "project_id": 1322,
+        "project_code": "P2017-1322",
+        "total_cost": 16000000.25
+    },
+    {
+        "project_id": 1327,
+        "project_code": "P2017-1327",
+        "total_cost": 4300000.0
+    },
+    {
+        "project_id": 1328,
+        "project_code": "P2017-1328",
+        "total_cost": 76000000.0
+    },
+    {
+        "project_id": 1329,
+        "project_code": "P2017-1329",
+        "total_cost": 7950000.0
+    },
+    {
+        "project_id": 2335,
+        "project_code": "P2017-2335",
+        "total_cost": 17031579.0
+    },
+    {
+        "project_id": 2337,
+        "project_code": "P2017-2337",
+        "total_cost": 6800000.0
+    },
+    {
+        "project_id": 2338,
+        "project_code": "P2017-2338",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 2342,
+        "project_code": "P2017-2342",
+        "total_cost": 16000000.0
+    },
+    {
+        "project_id": 2344,
+        "project_code": "P2017-2344",
+        "total_cost": 50875000.0
+    },
+    {
+        "project_id": 2348,
+        "project_code": "P2017-2348",
+        "total_cost": 28621000.0
+    },
+    {
+        "project_id": 2350,
+        "project_code": "P2017-2350",
+        "total_cost": 15000000.0
+    },
+    {
+        "project_id": 2352,
+        "project_code": "P2017-2352",
+        "total_cost": 382016512.0
+    },
+    {
+        "project_id": 2355,
+        "project_code": "P2017-2355",
+        "total_cost": 78199999.0
+    },
+    {
+        "project_id": 2357,
+        "project_code": "P2017-2357",
+        "total_cost": 49000000.0
+    },
+    {
+        "project_id": 2373,
+        "project_code": "P2017-2373",
+        "total_cost": 20000000.0
+    },
+    {
+        "project_id": 2375,
+        "project_code": "P2017-2375",
+        "total_cost": 20020000.0
+    },
+    {
+        "project_id": 2381,
+        "project_code": "P2017-2381",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 2383,
+        "project_code": "P2017-2383",
+        "total_cost": 9997000.0
+    },
+    {
+        "project_id": 2384,
+        "project_code": "P2017-2384",
+        "total_cost": 20000000.0
+    },
+    {
+        "project_id": 2392,
+        "project_code": "P2017-2392",
+        "total_cost": 38400000.0
+    },
+    {
+        "project_id": 2396,
+        "project_code": "P2017-2396",
+        "total_cost": 28950000.0
+    },
+    {
+        "project_id": 2397,
+        "project_code": "P2017-2397",
+        "total_cost": 10055000.0
+    },
+    {
+        "project_id": 2399,
+        "project_code": "P2017-2399",
+        "total_cost": 19830000.0
+    },
+    {
+        "project_id": 2401,
+        "project_code": "P2017-2401",
+        "total_cost": 9000000.0
+    },
+    {
+        "project_id": 2403,
+        "project_code": "P2017-2403",
+        "total_cost": 56210000.0
+    },
+    {
+        "project_id": 2407,
+        "project_code": "P2017-2407",
+        "total_cost": 45000000.0
+    },
+    {
+        "project_id": 2412,
+        "project_code": "P2017-2412",
+        "total_cost": 16200000.0
+    },
+    {
+        "project_id": 2419,
+        "project_code": "P2017-2419",
+        "total_cost": 9500000.0
+    },
+    {
+        "project_id": 2431,
+        "project_code": "P2017-2431",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 2457,
+        "project_code": "P2017-2457",
+        "total_cost": 20000000.0
+    },
+    {
+        "project_id": 2466,
+        "project_code": "P2017-2466",
+        "total_cost": 19999994.0
+    },
+    {
+        "project_id": 2469,
+        "project_code": "P2017-2469",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 2470,
+        "project_code": "P2017-2470",
+        "total_cost": 14327500.0
+    },
+    {
+        "project_id": 2472,
+        "project_code": "P2017-2472",
+        "total_cost": 6991102.0
+    },
+    {
+        "project_id": 2475,
+        "project_code": "P2017-2475",
+        "total_cost": 15900000.0
+    },
+    {
+        "project_id": 2479,
+        "project_code": "P2017-2479",
+        "total_cost": 9500000.0
+    },
+    {
+        "project_id": 2489,
+        "project_code": "P2017-2489",
+        "total_cost": 18999419.75
+    },
+    {
+        "project_id": 2490,
+        "project_code": "P2017-2490",
+        "total_cost": 9950000.0
+    },
+    {
+        "project_id": 2498,
+        "project_code": "P2017-2498",
+        "total_cost": 30000000.0
+    },
+    {
+        "project_id": 2504,
+        "project_code": "P2017-2504",
+        "total_cost": 30000000.0
+    },
+    {
+        "project_id": 2515,
+        "project_code": "P2017-2515",
+        "total_cost": 20000000.171875
+    },
+    {
+        "project_id": 2517,
+        "project_code": "P2017-2517",
+        "total_cost": 19948500.0
+    },
+    {
+        "project_id": 2524,
+        "project_code": "P2017-2524",
+        "total_cost": 18000000.0
+    },
+    {
+        "project_id": 2537,
+        "project_code": "P2017-2537",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 2541,
+        "project_code": "P2017-2541",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 2547,
+        "project_code": "P2018-2547",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 2549,
+        "project_code": "P2018-2549",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 2552,
+        "project_code": "P2018-2552",
+        "total_cost": 33.0
+    },
+    {
+        "project_id": 3546,
+        "project_code": "P2018-3546",
+        "total_cost": 1111368.6300048828
+    },
+    {
+        "project_id": 3549,
+        "project_code": "P2018-3549",
+        "total_cost": 139801192.0
+    },
+    {
+        "project_id": 3553,
+        "project_code": "P2018-3553",
+        "total_cost": 30000000.0
+    },
+    {
+        "project_id": 3557,
+        "project_code": "P2018-3557",
+        "total_cost": 6000000.0
+    },
+    {
+        "project_id": 3560,
+        "project_code": "P2018-3560",
+        "total_cost": 40000.0
+    },
+    {
+        "project_id": 3562,
+        "project_code": "P2018-3562",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 3563,
+        "project_code": "P2018-3563",
+        "total_cost": 15000000.0
+    },
+    {
+        "project_id": 3567,
+        "project_code": "P2018-3567",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 3573,
+        "project_code": "P2018-3573",
+        "total_cost": 20000000.0
+    },
+    {
+        "project_id": 3577,
+        "project_code": "P2018-3577",
+        "total_cost": 25000000.0
+    },
+    {
+        "project_id": 3580,
+        "project_code": "P2018-3580",
+        "total_cost": 19000000.0
+    },
+    {
+        "project_id": 3582,
+        "project_code": "P2018-3582",
+        "total_cost": 7740000.0
+    },
+    {
+        "project_id": 3585,
+        "project_code": "P2018-3585",
+        "total_cost": 25000000.0
+    },
+    {
+        "project_id": 3587,
+        "project_code": "P2018-3587",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 3588,
+        "project_code": "P2018-3588",
+        "total_cost": 25000000.0
+    },
+    {
+        "project_id": 3589,
+        "project_code": "P2018-3589",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 3593,
+        "project_code": "P2018-3593",
+        "total_cost": 8700000.0
+    },
+    {
+        "project_id": 3594,
+        "project_code": "P2018-3594",
+        "total_cost": 15000000.0
+    },
+    {
+        "project_id": 3601,
+        "project_code": "P2018-3601",
+        "total_cost": 21500000.0
+    },
+    {
+        "project_id": 3603,
+        "project_code": "P2018-3603",
+        "total_cost": 25000000.0
+    },
+    {
+        "project_id": 3606,
+        "project_code": "P2018-3606",
+        "total_cost": 19000000.0
+    },
+    {
+        "project_id": 3607,
+        "project_code": "P2018-3607",
+        "total_cost": 11603604.0
+    },
+    {
+        "project_id": 3612,
+        "project_code": "P2018-3612",
+        "total_cost": 25000000.0
+    },
+    {
+        "project_id": 3621,
+        "project_code": "P2018-3621",
+        "total_cost": 19999999.625
+    },
+    {
+        "project_id": 3622,
+        "project_code": "P2018-3622",
+        "total_cost": 9950000.0
+    },
+    {
+        "project_id": 3629,
+        "project_code": "P2018-3629",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 3633,
+        "project_code": "P2019-3633",
+        "total_cost": 34100000.0
+    },
+    {
+        "project_id": 3634,
+        "project_code": "P2019-3634",
+        "total_cost": 18867000.0
+    },
+    {
+        "project_id": 3635,
+        "project_code": "P2019-3635",
+        "total_cost": 45900000.0
+    },
+    {
+        "project_id": 3637,
+        "project_code": "P2019-3637",
+        "total_cost": 50000000.0
+    },
+    {
+        "project_id": 3640,
+        "project_code": "P2019-3640",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 3642,
+        "project_code": "P2019-3642",
+        "total_cost": 9999941.875
+    },
+    {
+        "project_id": 3648,
+        "project_code": "P2019-3648",
+        "total_cost": 34770000.0
+    },
+    {
+        "project_id": 3655,
+        "project_code": "P2019-3655",
+        "total_cost": 49200000.0
+    },
+    {
+        "project_id": 3656,
+        "project_code": "P2019-3656",
+        "total_cost": 100980000.0
+    },
+    {
+        "project_id": 3659,
+        "project_code": "P2019-3659",
+        "total_cost": 13798000.0
+    },
+    {
+        "project_id": 3662,
+        "project_code": "P2019-3662",
+        "total_cost": 63250000.0
+    },
+    {
+        "project_id": 3675,
+        "project_code": "P2019-3675",
+        "total_cost": 35000000.0
+    },
+    {
+        "project_id": 3685,
+        "project_code": "P2019-3685",
+        "total_cost": 13959693.875
+    },
+    {
+        "project_id": 3692,
+        "project_code": "P2019-3692",
+        "total_cost": 34500000.0
+    },
+    {
+        "project_id": 3694,
+        "project_code": "P2019-3694",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 3695,
+        "project_code": "P2019-3695",
+        "total_cost": 166649972.0
+    },
+    {
+        "project_id": 3698,
+        "project_code": "P2019-3698",
+        "total_cost": 58000000.0
+    },
+    {
+        "project_id": 3704,
+        "project_code": "P2019-3704",
+        "total_cost": 38000000.0
+    },
+    {
+        "project_id": 3705,
+        "project_code": "P2019-3705",
+        "total_cost": 5000000.0
+    },
+    {
+        "project_id": 3709,
+        "project_code": "P2019-3709",
+        "total_cost": 21500000.0
+    },
+    {
+        "project_id": 3710,
+        "project_code": "P2019-3710",
+        "total_cost": 20000000.0
+    },
+    {
+        "project_id": 3716,
+        "project_code": "P2019-3716",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 3718,
+        "project_code": "P2019-3718",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 3719,
+        "project_code": "P2019-3719",
+        "total_cost": 20000000.0
+    },
+    {
+        "project_id": 3721,
+        "project_code": "P2019-3721",
+        "total_cost": 29000000.0
+    },
+    {
+        "project_id": 3724,
+        "project_code": "P2019-3724",
+        "total_cost": 20000000.0
+    },
+    {
+        "project_id": 3727,
+        "project_code": "P2019-3727",
+        "total_cost": 28755001.0
+    },
+    {
+        "project_id": 3730,
+        "project_code": "P2019-3730",
+        "total_cost": 9940000.0
+    },
+    {
+        "project_id": 3731,
+        "project_code": "P2019-3731",
+        "total_cost": 9997600.0
+    },
+    {
+        "project_id": 3732,
+        "project_code": "P2019-3732",
+        "total_cost": 9964000.0
+    },
+    {
+        "project_id": 3737,
+        "project_code": "P2019-3737",
+        "total_cost": 9999999.125
+    },
+    {
+        "project_id": 3739,
+        "project_code": "P2019-3739",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 3741,
+        "project_code": "P2019-3741",
+        "total_cost": 45000000.0
+    },
+    {
+        "project_id": 3743,
+        "project_code": "P2019-3743",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 3744,
+        "project_code": "P2019-3744",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 3745,
+        "project_code": "P2019-3745",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 3752,
+        "project_code": "P2019-3752",
+        "total_cost": 6000000.0
+    },
+    {
+        "project_id": 3758,
+        "project_code": "P2019-3758",
+        "total_cost": 11842000.0
+    },
+    {
+        "project_id": 3760,
+        "project_code": "P2019-3760",
+        "total_cost": 13000000.0
+    },
+    {
+        "project_id": 3775,
+        "project_code": "P2019-3775",
+        "total_cost": 77400000.0
+    },
+    {
+        "project_id": 3779,
+        "project_code": "P2020-3779",
+        "total_cost": 39000000.0
+    },
+    {
+        "project_id": 3785,
+        "project_code": "P2020-3785",
+        "total_cost": 6494736.84375
+    },
+    {
+        "project_id": 3788,
+        "project_code": "P2020-3788",
+        "total_cost": 117481964.5
+    },
+    {
+        "project_id": 3790,
+        "project_code": "P2020-3790",
+        "total_cost": 15540000.0
+    },
+    {
+        "project_id": 3791,
+        "project_code": "P2020-3791",
+        "total_cost": 32400.0
+    },
+    {
+        "project_id": 3793,
+        "project_code": "P2020-3793",
+        "total_cost": 36000303.03125
+    },
+    {
+        "project_id": 3795,
+        "project_code": "P2020-3795",
+        "total_cost": 21600000.0
+    },
+    {
+        "project_id": 3796,
+        "project_code": "P2020-3796",
+        "total_cost": 36000000.0
+    },
+    {
+        "project_id": 3797,
+        "project_code": "P2020-3797",
+        "total_cost": 5000000.0
+    },
+    {
+        "project_id": 3798,
+        "project_code": "P2020-3798",
+        "total_cost": 22993250.0
+    },
+    {
+        "project_id": 3800,
+        "project_code": "P2020-3800",
+        "total_cost": 7360000.0
+    },
+    {
+        "project_id": 3801,
+        "project_code": "P2020-3801",
+        "total_cost": 129078736.0
+    },
+    {
+        "project_id": 3803,
+        "project_code": "P2020-3803",
+        "total_cost": 40300000.0
+    },
+    {
+        "project_id": 3804,
+        "project_code": "P2020-3804",
+        "total_cost": 70463800.0
+    },
+    {
+        "project_id": 3806,
+        "project_code": "P2020-3806",
+        "total_cost": 37000000.0
+    },
+    {
+        "project_id": 3807,
+        "project_code": "P2020-3807",
+        "total_cost": 9999999.75
+    },
+    {
+        "project_id": 3808,
+        "project_code": "P2020-3808",
+        "total_cost": 27000075.78125
+    },
+    {
+        "project_id": 3809,
+        "project_code": "P2020-3809",
+        "total_cost": 30000000.0
+    },
+    {
+        "project_id": 3810,
+        "project_code": "P2020-3810",
+        "total_cost": 28500000.0
+    },
+    {
+        "project_id": 3811,
+        "project_code": "P2020-3811",
+        "total_cost": 22290000.0
+    },
+    {
+        "project_id": 3814,
+        "project_code": "P2020-3814",
+        "total_cost": 9800000.0
+    },
+    {
+        "project_id": 3816,
+        "project_code": "P2020-3816",
+        "total_cost": 181232504.0
+    },
+    {
+        "project_id": 3817,
+        "project_code": "P2020-3817",
+        "total_cost": 287589024.0
+    },
+    {
+        "project_id": 3820,
+        "project_code": "P2020-3820",
+        "total_cost": 10117000.0
+    },
+    {
+        "project_id": 3822,
+        "project_code": "P2020-3822",
+        "total_cost": 36700000.0
+    },
+    {
+        "project_id": 3823,
+        "project_code": "P2020-3823",
+        "total_cost": 38200068.625
+    },
+    {
+        "project_id": 3826,
+        "project_code": "P2020-3826",
+        "total_cost": 33000000.0
+    },
+    {
+        "project_id": 3832,
+        "project_code": "P2020-3832",
+        "total_cost": 3316000.0
+    },
+    {
+        "project_id": 3835,
+        "project_code": "P2020-3835",
+        "total_cost": 70900000.0
+    },
+    {
+        "project_id": 3836,
+        "project_code": "P2020-3836",
+        "total_cost": 250000000.0
+    },
+    {
+        "project_id": 3837,
+        "project_code": "P2020-3837",
+        "total_cost": 40000000.0
+    },
+    {
+        "project_id": 3843,
+        "project_code": "P2020-3843",
+        "total_cost": 8255000.0
+    },
+    {
+        "project_id": 3854,
+        "project_code": "P2020-3854",
+        "total_cost": 60913684.0
+    },
+    {
+        "project_id": 3861,
+        "project_code": "P2020-3861",
+        "total_cost": 13337951.0
+    },
+    {
+        "project_id": 3862,
+        "project_code": "P2020-3862",
+        "total_cost": 6048947.375
+    },
+    {
+        "project_id": 3866,
+        "project_code": "P2020-3866",
+        "total_cost": 60000000.0
+    },
+    {
+        "project_id": 3873,
+        "project_code": "P2020-3873",
+        "total_cost": 1500000.0
+    },
+    {
+        "project_id": 3874,
+        "project_code": "P2020-3874",
+        "total_cost": 20135875.0
+    },
+    {
+        "project_id": 3876,
+        "project_code": "P2020-3876",
+        "total_cost": 72000000.0
+    },
+    {
+        "project_id": 3877,
+        "project_code": "P2020-3877",
+        "total_cost": 44301538.0
+    },
+    {
+        "project_id": 3880,
+        "project_code": "P2020-3880",
+        "total_cost": 8000000.375
+    },
+    {
+        "project_id": 3883,
+        "project_code": "P2020-3883",
+        "total_cost": 33770293.25
+    },
+    {
+        "project_id": 3884,
+        "project_code": "P2020-3884",
+        "total_cost": 16000000.0
+    },
+    {
+        "project_id": 3885,
+        "project_code": "P2020-3885",
+        "total_cost": 4497770.0
+    },
+    {
+        "project_id": 3886,
+        "project_code": "P2020-3886",
+        "total_cost": 40240136.75
+    },
+    {
+        "project_id": 3887,
+        "project_code": "P2020-3887",
+        "total_cost": 60039990.75
+    },
+    {
+        "project_id": 3888,
+        "project_code": "P2020-3888",
+        "total_cost": 14976800.0
+    },
+    {
+        "project_id": 3889,
+        "project_code": "P2020-3889",
+        "total_cost": 28956490.5
+    },
+    {
+        "project_id": 3890,
+        "project_code": "P2020-3890",
+        "total_cost": 8500000.0
+    },
+    {
+        "project_id": 3892,
+        "project_code": "P2020-3892",
+        "total_cost": 22834654.75
+    },
+    {
+        "project_id": 3893,
+        "project_code": "P2020-3893",
+        "total_cost": 6295947.375
+    },
+    {
+        "project_id": 3896,
+        "project_code": "P2020-3896",
+        "total_cost": 40907708.375
+    },
+    {
+        "project_id": 3897,
+        "project_code": "P2020-3897",
+        "total_cost": 9000000.0
+    },
+    {
+        "project_id": 3898,
+        "project_code": "P2020-3898",
+        "total_cost": 6000000.0
+    },
+    {
+        "project_id": 3901,
+        "project_code": "P2020-3901",
+        "total_cost": 50.0
+    },
+    {
+        "project_id": 3903,
+        "project_code": "P2020-3903",
+        "total_cost": 11360215.75
+    },
+    {
+        "project_id": 3905,
+        "project_code": "P2020-3905",
+        "total_cost": 94009600.0
+    },
+    {
+        "project_id": 3913,
+        "project_code": "P2020-3913",
+        "total_cost": 48000000.0
+    },
+    {
+        "project_id": 3916,
+        "project_code": "P2020-3916",
+        "total_cost": 17950000.0
+    },
+    {
+        "project_id": 3918,
+        "project_code": "P2020-3918",
+        "total_cost": 39820000.0
+    },
+    {
+        "project_id": 3923,
+        "project_code": "P2020-3923",
+        "total_cost": 1000000.0
+    },
+    {
+        "project_id": 3924,
+        "project_code": "P2020-3924",
+        "total_cost": 143347783.5
+    },
+    {
+        "project_id": 3932,
+        "project_code": "P2020-3932",
+        "total_cost": 29998000.0
+    },
+    {
+        "project_id": 3937,
+        "project_code": "P2020-3937",
+        "total_cost": 48000000.0
+    },
+    {
+        "project_id": 3942,
+        "project_code": "P2020-3942",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 3943,
+        "project_code": "P2020-3943",
+        "total_cost": 26000000.0
+    },
+    {
+        "project_id": 3944,
+        "project_code": "P2020-3944",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 3945,
+        "project_code": "P2020-3945",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 3949,
+        "project_code": "P2020-3949",
+        "total_cost": 28151000.0
+    },
+    {
+        "project_id": 3954,
+        "project_code": "P2020-3954",
+        "total_cost": 9000000.0
+    },
+    {
+        "project_id": 3958,
+        "project_code": "P2020-3958",
+        "total_cost": 87000000.0
+    },
+    {
+        "project_id": 3963,
+        "project_code": "P2020-3963",
+        "total_cost": 3500000.0
+    },
+    {
+        "project_id": 3967,
+        "project_code": "P2020-3967",
+        "total_cost": 30000000.0
+    },
+    {
+        "project_id": 3984,
+        "project_code": "P2020-3984",
+        "total_cost": 29800000.0
+    },
+    {
+        "project_id": 3990,
+        "project_code": "P2020-3990",
+        "total_cost": 14000000.0
+    },
+    {
+        "project_id": 3994,
+        "project_code": "P2020-3994",
+        "total_cost": 2000000.0
+    },
+    {
+        "project_id": 3997,
+        "project_code": "P2020-3997",
+        "total_cost": 1999999.7890625
+    },
+    {
+        "project_id": 3998,
+        "project_code": "P2020-3998",
+        "total_cost": 9000000.0
+    },
+    {
+        "project_id": 4011,
+        "project_code": "P2021-4011",
+        "total_cost": 8977777.0
+    },
+    {
+        "project_id": 4012,
+        "project_code": "P2021-4012",
+        "total_cost": 47003368.5
+    },
+    {
+        "project_id": 4017,
+        "project_code": "P2021-4017",
+        "total_cost": 5000000.0
+    },
+    {
+        "project_id": 4019,
+        "project_code": "P2021-4019",
+        "total_cost": 16478136.0
+    },
+    {
+        "project_id": 4021,
+        "project_code": "P2021-4021",
+        "total_cost": 19461402.0
+    },
+    {
+        "project_id": 4022,
+        "project_code": "P2021-4022",
+        "total_cost": 123613684.5
+    },
+    {
+        "project_id": 4023,
+        "project_code": "P2021-4023",
+        "total_cost": 36656842.0
+    },
+    {
+        "project_id": 4024,
+        "project_code": "P2021-4024",
+        "total_cost": 48198490.75
+    },
+    {
+        "project_id": 4026,
+        "project_code": "P2021-4026",
+        "total_cost": 7674400.0
+    },
+    {
+        "project_id": 4027,
+        "project_code": "P2021-4027",
+        "total_cost": 67484210.5
+    },
+    {
+        "project_id": 4031,
+        "project_code": "P2021-4031",
+        "total_cost": 238070093.0
+    },
+    {
+        "project_id": 4045,
+        "project_code": "P2021-4045",
+        "total_cost": 8000000.0
+    },
+    {
+        "project_id": 4046,
+        "project_code": "P2021-4046",
+        "total_cost": 163875008.0
+    },
+    {
+        "project_id": 4048,
+        "project_code": "P2021-4048",
+        "total_cost": 62050000.0
+    },
+    {
+        "project_id": 4050,
+        "project_code": "P2021-4050",
+        "total_cost": 50000000.0
+    },
+    {
+        "project_id": 4051,
+        "project_code": "P2021-4051",
+        "total_cost": 26063186.375
+    },
+    {
+        "project_id": 4052,
+        "project_code": "P2021-4052",
+        "total_cost": 12620000.0
+    },
+    {
+        "project_id": 4053,
+        "project_code": "P2021-4053",
+        "total_cost": 53087789.5
+    },
+    {
+        "project_id": 4056,
+        "project_code": "P2021-4056",
+        "total_cost": 46380742.0
+    },
+    {
+        "project_id": 4058,
+        "project_code": "P2021-4058",
+        "total_cost": 46.619998931884766
+    },
+    {
+        "project_id": 4059,
+        "project_code": "P2021-4059",
+        "total_cost": 67000000.0
+    },
+    {
+        "project_id": 4060,
+        "project_code": "P2021-4060",
+        "total_cost": 565807600.0
+    },
+    {
+        "project_id": 4062,
+        "project_code": "P2021-4062",
+        "total_cost": 1112308.0
+    },
+    {
+        "project_id": 4063,
+        "project_code": "P2021-4063",
+        "total_cost": 68559949.5
+    },
+    {
+        "project_id": 4064,
+        "project_code": "P2021-4064",
+        "total_cost": 67000.0
+    },
+    {
+        "project_id": 4067,
+        "project_code": "P2021-4067",
+        "total_cost": 46000000.0
+    },
+    {
+        "project_id": 4068,
+        "project_code": "P2021-4068",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 4070,
+        "project_code": "P2021-4070",
+        "total_cost": 85000000.0
+    },
+    {
+        "project_id": 4071,
+        "project_code": "P2021-4071",
+        "total_cost": 2112000.0
+    },
+    {
+        "project_id": 4073,
+        "project_code": "P2021-4073",
+        "total_cost": 1000000.0
+    },
+    {
+        "project_id": 4075,
+        "project_code": "P2021-4075",
+        "total_cost": 71380000.0
+    },
+    {
+        "project_id": 4079,
+        "project_code": "P2021-4079",
+        "total_cost": 226200134.0
+    },
+    {
+        "project_id": 4081,
+        "project_code": "P2021-4081",
+        "total_cost": 158870004.0
+    },
+    {
+        "project_id": 4082,
+        "project_code": "P2021-4082",
+        "total_cost": 9995000.0
+    },
+    {
+        "project_id": 4086,
+        "project_code": "P2021-4086",
+        "total_cost": 201600000.0
+    },
+    {
+        "project_id": 4090,
+        "project_code": "P2021-4090",
+        "total_cost": 90000000.0
+    },
+    {
+        "project_id": 4091,
+        "project_code": "P2021-4091",
+        "total_cost": 50000000.0
+    },
+    {
+        "project_id": 4092,
+        "project_code": "P2021-4092",
+        "total_cost": 33946567.5
+    },
+    {
+        "project_id": 4094,
+        "project_code": "P2021-4094",
+        "total_cost": 43435.0
+    },
+    {
+        "project_id": 4095,
+        "project_code": "P2021-4095",
+        "total_cost": 40000000.0
+    },
+    {
+        "project_id": 4096,
+        "project_code": "P2021-4096",
+        "total_cost": 12923210.5
+    },
+    {
+        "project_id": 4098,
+        "project_code": "P2021-4098",
+        "total_cost": 1700000.0
+    },
+    {
+        "project_id": 4101,
+        "project_code": "P2021-4101",
+        "total_cost": 4500000.0
+    },
+    {
+        "project_id": 4107,
+        "project_code": "P2021-4107",
+        "total_cost": 4600000.0
+    },
+    {
+        "project_id": 4108,
+        "project_code": "P2021-4108",
+        "total_cost": 122323924.0
+    },
+    {
+        "project_id": 4110,
+        "project_code": "P2021-4110",
+        "total_cost": 200000000.0
+    },
+    {
+        "project_id": 4113,
+        "project_code": "P2021-4113",
+        "total_cost": 134137504.0
+    },
+    {
+        "project_id": 4115,
+        "project_code": "P2021-4115",
+        "total_cost": 1500000.0
+    },
+    {
+        "project_id": 4120,
+        "project_code": "P2021-4120",
+        "total_cost": 44000000.0
+    },
+    {
+        "project_id": 4122,
+        "project_code": "P2021-4122",
+        "total_cost": 31000000.0
+    },
+    {
+        "project_id": 4123,
+        "project_code": "P2021-4123",
+        "total_cost": 34680000.0
+    },
+    {
+        "project_id": 4127,
+        "project_code": "P2021-4127",
+        "total_cost": 30460000.0
+    },
+    {
+        "project_id": 4131,
+        "project_code": "P2021-4131",
+        "total_cost": 45000000.0
+    },
+    {
+        "project_id": 4132,
+        "project_code": "P2021-4132",
+        "total_cost": 16230000.0
+    },
+    {
+        "project_id": 4134,
+        "project_code": "P2021-4134",
+        "total_cost": 2442000.0
+    },
+    {
+        "project_id": 4137,
+        "project_code": "P2021-4137",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 4140,
+        "project_code": "P2021-4140",
+        "total_cost": 248514804.0
+    },
+    {
+        "project_id": 4141,
+        "project_code": "P2021-4141",
+        "total_cost": 1000000.0
+    },
+    {
+        "project_id": 4143,
+        "project_code": "P2021-4143",
+        "total_cost": 35000000.0
+    },
+    {
+        "project_id": 4146,
+        "project_code": "P2021-4146",
+        "total_cost": 23324988.5
+    },
+    {
+        "project_id": 4147,
+        "project_code": "P2021-4147",
+        "total_cost": 76302632.0
+    },
+    {
+        "project_id": 4148,
+        "project_code": "P2021-4148",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 4149,
+        "project_code": "P2021-4149",
+        "total_cost": 19713760.0
+    },
+    {
+        "project_id": 4150,
+        "project_code": "P2021-4150",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 4153,
+        "project_code": "P2021-4153",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 4165,
+        "project_code": "P2021-4165",
+        "total_cost": 57252631.5
+    },
+    {
+        "project_id": 4166,
+        "project_code": "P2021-4166",
+        "total_cost": 85200000.0
+    },
+    {
+        "project_id": 4170,
+        "project_code": "P2021-4170",
+        "total_cost": 46800000.0
+    },
+    {
+        "project_id": 4177,
+        "project_code": "P2021-4177",
+        "total_cost": 29849999.5
+    },
+    {
+        "project_id": 4178,
+        "project_code": "P2021-4178",
+        "total_cost": 30.44000005722046
+    },
+    {
+        "project_id": 4180,
+        "project_code": "P2021-4180",
+        "total_cost": 9996000.0
+    },
+    {
+        "project_id": 4181,
+        "project_code": "P2021-4181",
+        "total_cost": 120000000.0
+    },
+    {
+        "project_id": 4194,
+        "project_code": "P2021-4194",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 4197,
+        "project_code": "P2021-4197",
+        "total_cost": 29100000.0
+    },
+    {
+        "project_id": 4208,
+        "project_code": "P2021-4208",
+        "total_cost": 9748500.0
+    },
+    {
+        "project_id": 4214,
+        "project_code": "P2021-4214",
+        "total_cost": 4978010.53125
+    },
+    {
+        "project_id": 4216,
+        "project_code": "P2022-4216",
+        "total_cost": 63189473.75
+    },
+    {
+        "project_id": 4217,
+        "project_code": "P2022-4217",
+        "total_cost": 45499473.75
+    },
+    {
+        "project_id": 4218,
+        "project_code": "P2022-4218",
+        "total_cost": 10800000.0
+    },
+    {
+        "project_id": 4219,
+        "project_code": "P2022-4219",
+        "total_cost": 45000000.0
+    },
+    {
+        "project_id": 4221,
+        "project_code": "P2022-4221",
+        "total_cost": 252742676.0
+    },
+    {
+        "project_id": 4222,
+        "project_code": "P2022-4222",
+        "total_cost": 149968000.0
+    },
+    {
+        "project_id": 4227,
+        "project_code": "P2022-4227",
+        "total_cost": 25888000.0
+    },
+    {
+        "project_id": 4229,
+        "project_code": "P2022-4229",
+        "total_cost": 14500000.125
+    },
+    {
+        "project_id": 4230,
+        "project_code": "P2022-4230",
+        "total_cost": 5700000.0
+    },
+    {
+        "project_id": 4231,
+        "project_code": "P2022-4231",
+        "total_cost": 5750014.75
+    },
+    {
+        "project_id": 4233,
+        "project_code": "P2022-4233",
+        "total_cost": 5500000.0
+    },
+    {
+        "project_id": 4236,
+        "project_code": "P2022-4236",
+        "total_cost": 10110526.3125
+    },
+    {
+        "project_id": 4238,
+        "project_code": "P2022-4238",
+        "total_cost": 6000000.0
+    },
+    {
+        "project_id": 4243,
+        "project_code": "P2022-4243",
+        "total_cost": 140000000.0
+    },
+    {
+        "project_id": 4244,
+        "project_code": "P2022-4244",
+        "total_cost": 1172222.2265625
+    },
+    {
+        "project_id": 4245,
+        "project_code": "P2022-4245",
+        "total_cost": 3000000.0
+    },
+    {
+        "project_id": 4252,
+        "project_code": "P2022-4252",
+        "total_cost": 1000000.0
+    },
+    {
+        "project_id": 4253,
+        "project_code": "P2022-4253",
+        "total_cost": 38800000.0
+    },
+    {
+        "project_id": 4255,
+        "project_code": "P2022-4255",
+        "total_cost": 99390000.0
+    },
+    {
+        "project_id": 4256,
+        "project_code": "P2022-4256",
+        "total_cost": 53460000.0
+    },
+    {
+        "project_id": 4257,
+        "project_code": "P2022-4257",
+        "total_cost": 5985008.203125
+    },
+    {
+        "project_id": 4261,
+        "project_code": "P2022-4261",
+        "total_cost": 340000000.0
+    },
+    {
+        "project_id": 4263,
+        "project_code": "P2022-4263",
+        "total_cost": 4000.0
+    },
+    {
+        "project_id": 4265,
+        "project_code": "P2022-4265",
+        "total_cost": 2000000.0
+    },
+    {
+        "project_id": 4268,
+        "project_code": "P2022-4268",
+        "total_cost": 121063158.0
+    },
+    {
+        "project_id": 4269,
+        "project_code": "P2022-4269",
+        "total_cost": 130000.0
+    },
+    {
+        "project_id": 4270,
+        "project_code": "P2022-4270",
+        "total_cost": 0.0
+    },
+    {
+        "project_id": 4274,
+        "project_code": "P2022-4274",
+        "total_cost": 31140000.0
+    },
+    {
+        "project_id": 4275,
+        "project_code": "P2022-4275",
+        "total_cost": 86030.0
+    },
+    {
+        "project_id": 4276,
+        "project_code": "P2022-4276",
+        "total_cost": 1000000.0
+    },
+    {
+        "project_id": 4277,
+        "project_code": "P2022-4277",
+        "total_cost": 33000000.0
+    },
+    {
+        "project_id": 4278,
+        "project_code": "P2022-4278",
+        "total_cost": 5000016.84375
+    },
+    {
+        "project_id": 4279,
+        "project_code": "P2022-4279",
+        "total_cost": 32000000.0
+    },
+    {
+        "project_id": 4280,
+        "project_code": "P2022-4280",
+        "total_cost": 163875008.0
+    },
+    {
+        "project_id": 4281,
+        "project_code": "P2022-4281",
+        "total_cost": 137804992.0
+    },
+    {
+        "project_id": 4283,
+        "project_code": "P2022-4283",
+        "total_cost": 3700000.0
+    },
+    {
+        "project_id": 4285,
+        "project_code": "P2022-4285",
+        "total_cost": 11009473.6875
+    },
+    {
+        "project_id": 4286,
+        "project_code": "P2022-4286",
+        "total_cost": 36450000.0
+    },
+    {
+        "project_id": 4287,
+        "project_code": "P2022-4287",
+        "total_cost": 26800000.0
+    },
+    {
+        "project_id": 4288,
+        "project_code": "P2022-4288",
+        "total_cost": 2500000.0
+    },
+    {
+        "project_id": 4293,
+        "project_code": "P2022-4293",
+        "total_cost": 55623876.0
+    },
+    {
+        "project_id": 4295,
+        "project_code": "P2022-4295",
+        "total_cost": 64600000.0
+    },
+    {
+        "project_id": 4296,
+        "project_code": "P2022-4296",
+        "total_cost": 69278947.5
+    },
+    {
+        "project_id": 4297,
+        "project_code": "P2022-4297",
+        "total_cost": 64283360.0
+    },
+    {
+        "project_id": 4298,
+        "project_code": "P2022-4298",
+        "total_cost": 5000000.0
+    },
+    {
+        "project_id": 4299,
+        "project_code": "P2022-4299",
+        "total_cost": 37018999.875
+    },
+    {
+        "project_id": 4300,
+        "project_code": "P2022-4300",
+        "total_cost": 5000000.0
+    },
+    {
+        "project_id": 4302,
+        "project_code": "P2022-4302",
+        "total_cost": 47442105.25
+    },
+    {
+        "project_id": 4303,
+        "project_code": "P2022-4303",
+        "total_cost": 31800000.0
+    },
+    {
+        "project_id": 4304,
+        "project_code": "P2022-4304",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 4305,
+        "project_code": "P2022-4305",
+        "total_cost": 33000000.0
+    },
+    {
+        "project_id": 4308,
+        "project_code": "P2022-4308",
+        "total_cost": 19900000.0
+    },
+    {
+        "project_id": 4309,
+        "project_code": "P2022-4309",
+        "total_cost": 44600000.0
+    },
+    {
+        "project_id": 4315,
+        "project_code": "P2022-4315",
+        "total_cost": 20000000.0
+    },
+    {
+        "project_id": 4319,
+        "project_code": "P2022-4319",
+        "total_cost": 19300000.0
+    },
+    {
+        "project_id": 4321,
+        "project_code": "P2022-4321",
+        "total_cost": 5962500.0
+    },
+    {
+        "project_id": 4323,
+        "project_code": "P2022-4323",
+        "total_cost": 36592000.0
+    },
+    {
+        "project_id": 4325,
+        "project_code": "P2022-4325",
+        "total_cost": 570000.0
+    },
+    {
+        "project_id": 4326,
+        "project_code": "P2022-4326",
+        "total_cost": 3000000.0
+    },
+    {
+        "project_id": 4327,
+        "project_code": "P2022-4327",
+        "total_cost": 65000000.0
+    },
+    {
+        "project_id": 4329,
+        "project_code": "P2022-4329",
+        "total_cost": 200000.0
+    },
+    {
+        "project_id": 4330,
+        "project_code": "P2022-4330",
+        "total_cost": 90000000.0
+    },
+    {
+        "project_id": 4331,
+        "project_code": "P2022-4331",
+        "total_cost": 11559999.5
+    },
+    {
+        "project_id": 4332,
+        "project_code": "P2022-4332",
+        "total_cost": 108800000.0
+    },
+    {
+        "project_id": 4337,
+        "project_code": "P2022-4337",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 4338,
+        "project_code": "P2022-4338",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 4339,
+        "project_code": "P2022-4339",
+        "total_cost": 40702500.0
+    },
+    {
+        "project_id": 4340,
+        "project_code": "P2022-4340",
+        "total_cost": 4000000.0
+    },
+    {
+        "project_id": 4341,
+        "project_code": "P2022-4341",
+        "total_cost": 12000000.0
+    },
+    {
+        "project_id": 4342,
+        "project_code": "P2022-4342",
+        "total_cost": 5000000.0
+    },
+    {
+        "project_id": 4343,
+        "project_code": "P2022-4343",
+        "total_cost": 40600000.0
+    },
+    {
+        "project_id": 4344,
+        "project_code": "P2022-4344",
+        "total_cost": 4950000.0
+    },
+    {
+        "project_id": 4347,
+        "project_code": "P2022-4347",
+        "total_cost": 18000000.0
+    },
+    {
+        "project_id": 4348,
+        "project_code": "P2022-4348",
+        "total_cost": 49660000.0
+    },
+    {
+        "project_id": 4349,
+        "project_code": "P2022-4349",
+        "total_cost": 24090813.0
+    },
+    {
+        "project_id": 4353,
+        "project_code": "P2022-4353",
+        "total_cost": 14116000.0
+    },
+    {
+        "project_id": 4354,
+        "project_code": "P2022-4354",
+        "total_cost": 9994999.5625
+    },
+    {
+        "project_id": 4355,
+        "project_code": "P2022-4355",
+        "total_cost": 3000000.0
+    },
+    {
+        "project_id": 4356,
+        "project_code": "P2022-4356",
+        "total_cost": 19294400.0
+    },
+    {
+        "project_id": 4357,
+        "project_code": "P2022-4357",
+        "total_cost": 35100000.0
+    },
+    {
+        "project_id": 4359,
+        "project_code": "P2022-4359",
+        "total_cost": 60000000.0
+    },
+    {
+        "project_id": 4361,
+        "project_code": "P2022-4361",
+        "total_cost": 1700000.0
+    },
+    {
+        "project_id": 4363,
+        "project_code": "P2022-4363",
+        "total_cost": 3866000.0
+    },
+    {
+        "project_id": 4364,
+        "project_code": "P2022-4364",
+        "total_cost": 364500000.0
+    },
+    {
+        "project_id": 4365,
+        "project_code": "P2022-4365",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 4367,
+        "project_code": "P2022-4367",
+        "total_cost": 9987000.0
+    },
+    {
+        "project_id": 4370,
+        "project_code": "P2022-4370",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 4371,
+        "project_code": "P2022-4371",
+        "total_cost": 19240000.0
+    },
+    {
+        "project_id": 4372,
+        "project_code": "P2022-4372",
+        "total_cost": 9998000.0
+    },
+    {
+        "project_id": 4373,
+        "project_code": "P2022-4373",
+        "total_cost": 9995000.0
+    },
+    {
+        "project_id": 4374,
+        "project_code": "P2022-4374",
+        "total_cost": 27999995.0
+    },
+    {
+        "project_id": 4375,
+        "project_code": "P2022-4375",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 4376,
+        "project_code": "P2022-4376",
+        "total_cost": 25300000.0
+    },
+    {
+        "project_id": 4377,
+        "project_code": "P2022-4377",
+        "total_cost": 28725000.0
+    },
+    {
+        "project_id": 4378,
+        "project_code": "P2022-4378",
+        "total_cost": 29802400.0
+    },
+    {
+        "project_id": 4379,
+        "project_code": "P2022-4379",
+        "total_cost": 29848352.0
+    },
+    {
+        "project_id": 4381,
+        "project_code": "P2022-4381",
+        "total_cost": 26200000.0
+    },
+    {
+        "project_id": 4383,
+        "project_code": "P2022-4383",
+        "total_cost": 30000000.0
+    },
+    {
+        "project_id": 4385,
+        "project_code": "P2022-4385",
+        "total_cost": 29995000.0
+    },
+    {
+        "project_id": 4390,
+        "project_code": "P2022-4390",
+        "total_cost": 27780000.0
+    },
+    {
+        "project_id": 4391,
+        "project_code": "P2022-4391",
+        "total_cost": 29510000.0
+    },
+    {
+        "project_id": 4394,
+        "project_code": "P2022-4394",
+        "total_cost": 27385000.0
+    },
+    {
+        "project_id": 4398,
+        "project_code": "P2022-4398",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 4399,
+        "project_code": "P2022-4399",
+        "total_cost": 28000000.0
+    },
+    {
+        "project_id": 4401,
+        "project_code": "P2022-4401",
+        "total_cost": 21000.0
+    },
+    {
+        "project_id": 4402,
+        "project_code": "P2022-4402",
+        "total_cost": 30000000.0
+    },
+    {
+        "project_id": 4403,
+        "project_code": "P2022-4403",
+        "total_cost": 28142000.0
+    },
+    {
+        "project_id": 4405,
+        "project_code": "P2022-4405",
+        "total_cost": 6000000.0
+    },
+    {
+        "project_id": 4406,
+        "project_code": "P2022-4406",
+        "total_cost": 25487000.0
+    },
+    {
+        "project_id": 4409,
+        "project_code": "P2022-4409",
+        "total_cost": 29160000.0
+    },
+    {
+        "project_id": 4410,
+        "project_code": "P2022-4410",
+        "total_cost": 8500000.0
+    },
+    {
+        "project_id": 4411,
+        "project_code": "P2022-4411",
+        "total_cost": 107273774.625
+    },
+    {
+        "project_id": 4412,
+        "project_code": "P2022-4412",
+        "total_cost": 48500000.0
+    },
+    {
+        "project_id": 4414,
+        "project_code": "P2022-4414",
+        "total_cost": 72873684.0
+    },
+    {
+        "project_id": 4415,
+        "project_code": "P2022-4415",
+        "total_cost": 202408.263671875
+    },
+    {
+        "project_id": 4416,
+        "project_code": "P2022-4416",
+        "total_cost": 5500000.0
+    },
+    {
+        "project_id": 4417,
+        "project_code": "P2022-4417",
+        "total_cost": 50000000.0
+    },
+    {
+        "project_id": 4419,
+        "project_code": "P2022-4419",
+        "total_cost": 35000000.0
+    },
+    {
+        "project_id": 4420,
+        "project_code": "P2022-4420",
+        "total_cost": 80100000.0
+    },
+    {
+        "project_id": 4422,
+        "project_code": "P2022-4422",
+        "total_cost": 79919996.0
+    },
+    {
+        "project_id": 4423,
+        "project_code": "P2023-4423",
+        "total_cost": 5533684.21875
+    },
+    {
+        "project_id": 4427,
+        "project_code": "P2023-4427",
+        "total_cost": 50000000.0
+    },
+    {
+        "project_id": 4428,
+        "project_code": "P2023-4428",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 4430,
+        "project_code": "P2023-4430",
+        "total_cost": 90000000.0
+    },
+    {
+        "project_id": 4431,
+        "project_code": "P2023-4431",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 4432,
+        "project_code": "P2023-4432",
+        "total_cost": 7000000.0
+    },
+    {
+        "project_id": 4433,
+        "project_code": "P2023-4433",
+        "total_cost": 8000000.0
+    },
+    {
+        "project_id": 4435,
+        "project_code": "P2023-4435",
+        "total_cost": 34839051.625
+    },
+    {
+        "project_id": 4437,
+        "project_code": "P2023-4437",
+        "total_cost": 55600000.0
+    },
+    {
+        "project_id": 4439,
+        "project_code": "P2023-4439",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 4440,
+        "project_code": "P2023-4440",
+        "total_cost": 60360000.0
+    },
+    {
+        "project_id": 4442,
+        "project_code": "P2023-4442",
+        "total_cost": 14253200.0
+    },
+    {
+        "project_id": 4443,
+        "project_code": "P2023-4443",
+        "total_cost": 12600000.0
+    },
+    {
+        "project_id": 4444,
+        "project_code": "P2023-4444",
+        "total_cost": 0.0
+    },
+    {
+        "project_id": 4445,
+        "project_code": "P2023-4445",
+        "total_cost": 1168421.0546875
+    },
+    {
+        "project_id": 4446,
+        "project_code": "P2023-4446",
+        "total_cost": 0.0
+    },
+    {
+        "project_id": 4447,
+        "project_code": "P2023-4447",
+        "total_cost": 2442000.0
+    },
+    {
+        "project_id": 4448,
+        "project_code": "P2023-4448",
+        "total_cost": 3000000.0
+    },
+    {
+        "project_id": 4449,
+        "project_code": "P2023-4449",
+        "total_cost": 36000000.0
+    },
+    {
+        "project_id": 4450,
+        "project_code": "P2023-4450",
+        "total_cost": 94921052.5
+    },
+    {
+        "project_id": 4453,
+        "project_code": "P2023-4453",
+        "total_cost": 1000000.0
+    },
+    {
+        "project_id": 4454,
+        "project_code": "P2023-4454",
+        "total_cost": 23902000.0
+    },
+    {
+        "project_id": 4455,
+        "project_code": "P2023-4455",
+        "total_cost": 26980000.0
+    },
+    {
+        "project_id": 4461,
+        "project_code": "P2023-4461",
+        "total_cost": 50000000.0
+    },
+    {
+        "project_id": 4462,
+        "project_code": "P2023-4462",
+        "total_cost": 16730000.0
+    },
+    {
+        "project_id": 4464,
+        "project_code": "P2023-4464",
+        "total_cost": 50000000.0
+    },
+    {
+        "project_id": 4465,
+        "project_code": "P2023-4465",
+        "total_cost": 19863157.875
+    },
+    {
+        "project_id": 4467,
+        "project_code": "P2023-4467",
+        "total_cost": 18839687.625
+    },
+    {
+        "project_id": 4468,
+        "project_code": "P2023-4468",
+        "total_cost": 40000000.0
+    },
+    {
+        "project_id": 4469,
+        "project_code": "P2023-4469",
+        "total_cost": 1499999.625
+    },
+    {
+        "project_id": 4470,
+        "project_code": "P2023-4470",
+        "total_cost": 9000000.0
+    },
+    {
+        "project_id": 4472,
+        "project_code": "P2023-4472",
+        "total_cost": 2775000.0
+    },
+    {
+        "project_id": 4474,
+        "project_code": "P2023-4474",
+        "total_cost": 2400000.0
+    },
+    {
+        "project_id": 4476,
+        "project_code": "P2023-4476",
+        "total_cost": 18000000.0
+    },
+    {
+        "project_id": 4478,
+        "project_code": "P2023-4478",
+        "total_cost": 21052631.5
+    },
+    {
+        "project_id": 4479,
+        "project_code": "P2023-4479",
+        "total_cost": 80000000.0
+    },
+    {
+        "project_id": 4481,
+        "project_code": "P2023-4481",
+        "total_cost": 500000.0
+    },
+    {
+        "project_id": 4482,
+        "project_code": "P2023-4482",
+        "total_cost": 38452631.5
+    },
+    {
+        "project_id": 4483,
+        "project_code": "P2023-4483",
+        "total_cost": 2978723.53125
+    },
+    {
+        "project_id": 4484,
+        "project_code": "P2023-4484",
+        "total_cost": 54000000.0
+    },
+    {
+        "project_id": 4485,
+        "project_code": "P2023-4485",
+        "total_cost": 53460000.0
+    },
+    {
+        "project_id": 4486,
+        "project_code": "P2023-4486",
+        "total_cost": 4500000.515625
+    },
+    {
+        "project_id": 4487,
+        "project_code": "P2023-4487",
+        "total_cost": 73000000.0
+    },
+    {
+        "project_id": 4488,
+        "project_code": "P2023-4488",
+        "total_cost": 14384000.0
+    },
+    {
+        "project_id": 4490,
+        "project_code": "P2023-4490",
+        "total_cost": 167126000.0
+    },
+    {
+        "project_id": 4493,
+        "project_code": "P2023-4493",
+        "total_cost": 44400000.0
+    },
+    {
+        "project_id": 4494,
+        "project_code": "P2023-4494",
+        "total_cost": 15000000.0
+    },
+    {
+        "project_id": 4495,
+        "project_code": "P2023-4495",
+        "total_cost": 9500000.0
+    },
+    {
+        "project_id": 4497,
+        "project_code": "P2023-4497",
+        "total_cost": 19950000.0
+    },
+    {
+        "project_id": 4500,
+        "project_code": "P2023-4500",
+        "total_cost": 70371000.0
+    },
+    {
+        "project_id": 4501,
+        "project_code": "P2023-4501",
+        "total_cost": 4000000.0
+    },
+    {
+        "project_id": 4503,
+        "project_code": "P2023-4503",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 4505,
+        "project_code": "P2023-4505",
+        "total_cost": 1760000.0
+    },
+    {
+        "project_id": 4506,
+        "project_code": "P2023-4506",
+        "total_cost": 1760000.0
+    },
+    {
+        "project_id": 4508,
+        "project_code": "P2023-4508",
+        "total_cost": 4500000.0
+    },
+    {
+        "project_id": 4511,
+        "project_code": "P2023-4511",
+        "total_cost": 7803157.875
+    },
+    {
+        "project_id": 4517,
+        "project_code": "P2023-4517",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 4519,
+        "project_code": "P2023-4519",
+        "total_cost": 31546391.75
+    },
+    {
+        "project_id": 4521,
+        "project_code": "P2023-4521",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 4523,
+        "project_code": "P2023-4523",
+        "total_cost": 2800000.0
+    },
+    {
+        "project_id": 4524,
+        "project_code": "P2023-4524",
+        "total_cost": 22147500.0
+    },
+    {
+        "project_id": 4527,
+        "project_code": "P2023-4527",
+        "total_cost": 4947368.421875
+    },
+    {
+        "project_id": 4528,
+        "project_code": "P2023-4528",
+        "total_cost": 842105.265625
+    },
+    {
+        "project_id": 4529,
+        "project_code": "P2023-4529",
+        "total_cost": 73000000.0
+    },
+    {
+        "project_id": 4537,
+        "project_code": "P2023-4537",
+        "total_cost": 50000000.0
+    },
+    {
+        "project_id": 4544,
+        "project_code": "P2023-4544",
+        "total_cost": 30000000.0
+    },
+    {
+        "project_id": 4545,
+        "project_code": "P2023-4545",
+        "total_cost": 8000000.0
+    },
+    {
+        "project_id": 4546,
+        "project_code": "P2023-4546",
+        "total_cost": 15000000.0
+    },
+    {
+        "project_id": 4548,
+        "project_code": "P2023-4548",
+        "total_cost": 2500000.0
+    },
+    {
+        "project_id": 4549,
+        "project_code": "P2023-4549",
+        "total_cost": 1327173.9140625
+    },
+    {
+        "project_id": 4550,
+        "project_code": "P2023-4550",
+        "total_cost": 27405749.5
+    },
+    {
+        "project_id": 4555,
+        "project_code": "P2023-4555",
+        "total_cost": 100452334.75
+    },
+    {
+        "project_id": 4556,
+        "project_code": "P2023-4556",
+        "total_cost": 30000000.0
+    },
+    {
+        "project_id": 4559,
+        "project_code": "P2023-4559",
+        "total_cost": 22040000.0
+    },
+    {
+        "project_id": 4560,
+        "project_code": "P2023-4560",
+        "total_cost": 2197802.1875
+    },
+    {
+        "project_id": 4561,
+        "project_code": "P2023-4561",
+        "total_cost": 22540000.0
+    },
+    {
+        "project_id": 4562,
+        "project_code": "P2023-4562",
+        "total_cost": 22040000.0
+    },
+    {
+        "project_id": 4563,
+        "project_code": "P2023-4563",
+        "total_cost": 39164631.5
+    },
+    {
+        "project_id": 4564,
+        "project_code": "P2023-4564",
+        "total_cost": 23975000.0
+    },
+    {
+        "project_id": 4565,
+        "project_code": "P2023-4565",
+        "total_cost": 61001052.5
+    },
+    {
+        "project_id": 4566,
+        "project_code": "P2023-4566",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 4567,
+        "project_code": "P2023-4567",
+        "total_cost": 1000000.0
+    },
+    {
+        "project_id": 4568,
+        "project_code": "P2023-4568",
+        "total_cost": 19500000.0
+    },
+    {
+        "project_id": 4569,
+        "project_code": "P2023-4569",
+        "total_cost": 22040000.0
+    },
+    {
+        "project_id": 4571,
+        "project_code": "P2023-4571",
+        "total_cost": 22540000.0
+    },
+    {
+        "project_id": 4574,
+        "project_code": "P2023-4574",
+        "total_cost": 21540000.0
+    },
+    {
+        "project_id": 4578,
+        "project_code": "P2023-4578",
+        "total_cost": 22540000.0
+    },
+    {
+        "project_id": 4580,
+        "project_code": "P2023-4580",
+        "total_cost": 22040000.0
+    },
+    {
+        "project_id": 4581,
+        "project_code": "P2023-4581",
+        "total_cost": 24040000.0
+    },
+    {
+        "project_id": 4582,
+        "project_code": "P2023-4582",
+        "total_cost": 22040000.0
+    },
+    {
+        "project_id": 4584,
+        "project_code": "P2023-4584",
+        "total_cost": 5380874.21875
+    },
+    {
+        "project_id": 4588,
+        "project_code": "P2023-4588",
+        "total_cost": 39740000.0
+    },
+    {
+        "project_id": 4590,
+        "project_code": "P2023-4590",
+        "total_cost": 11150000.0
+    },
+    {
+        "project_id": 4591,
+        "project_code": "P2023-4591",
+        "total_cost": 21800000.0
+    },
+    {
+        "project_id": 4592,
+        "project_code": "P2023-4592",
+        "total_cost": 24040000.0
+    },
+    {
+        "project_id": 4594,
+        "project_code": "P2023-4594",
+        "total_cost": 18580000.0
+    },
+    {
+        "project_id": 4595,
+        "project_code": "P2023-4595",
+        "total_cost": 45000000.0
+    },
+    {
+        "project_id": 4596,
+        "project_code": "P2023-4596",
+        "total_cost": 21100000.0
+    },
+    {
+        "project_id": 4599,
+        "project_code": "P2023-4599",
+        "total_cost": 22040000.0
+    },
+    {
+        "project_id": 4601,
+        "project_code": "P2023-4601",
+        "total_cost": 9830000.0
+    },
+    {
+        "project_id": 4604,
+        "project_code": "P2023-4604",
+        "total_cost": 29700000.0
+    },
+    {
+        "project_id": 4606,
+        "project_code": "P2023-4606",
+        "total_cost": 22540000.0
+    },
+    {
+        "project_id": 4609,
+        "project_code": "P2023-4609",
+        "total_cost": 23040000.0
+    },
+    {
+        "project_id": 4611,
+        "project_code": "P2023-4611",
+        "total_cost": 21540000.0
+    },
+    {
+        "project_id": 4614,
+        "project_code": "P2023-4614",
+        "total_cost": 21500000.0
+    },
+    {
+        "project_id": 4615,
+        "project_code": "P2023-4615",
+        "total_cost": 26000000.0
+    },
+    {
+        "project_id": 4616,
+        "project_code": "P2023-4616",
+        "total_cost": 22000000.0
+    },
+    {
+        "project_id": 4619,
+        "project_code": "P2023-4619",
+        "total_cost": 20000000.0
+    },
+    {
+        "project_id": 4620,
+        "project_code": "P2023-4620",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 4621,
+        "project_code": "P2023-4621",
+        "total_cost": 18340000.0
+    },
+    {
+        "project_id": 4622,
+        "project_code": "P2023-4622",
+        "total_cost": 20000000.0
+    },
+    {
+        "project_id": 4623,
+        "project_code": "P2023-4623",
+        "total_cost": 73149999.75
+    },
+    {
+        "project_id": 4624,
+        "project_code": "P2023-4624",
+        "total_cost": 10200000.0
+    },
+    {
+        "project_id": 4633,
+        "project_code": "P2024-4633",
+        "total_cost": 37190000.0
+    },
+    {
+        "project_id": 4634,
+        "project_code": "P2024-4634",
+        "total_cost": 890742500.0
+    },
+    {
+        "project_id": 4635,
+        "project_code": "P2024-4635",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 4636,
+        "project_code": "P2024-4636",
+        "total_cost": 15000000.0
+    },
+    {
+        "project_id": 4638,
+        "project_code": "P2024-4638",
+        "total_cost": 15000000.0
+    },
+    {
+        "project_id": 4642,
+        "project_code": "P2024-4642",
+        "total_cost": 1620000.0
+    },
+    {
+        "project_id": 4643,
+        "project_code": "P2024-4643",
+        "total_cost": 1000000.0
+    },
+    {
+        "project_id": 4646,
+        "project_code": "P2024-4646",
+        "total_cost": 116.0
+    },
+    {
+        "project_id": 4647,
+        "project_code": "P2024-4647",
+        "total_cost": 24000000.0
+    },
+    {
+        "project_id": 4648,
+        "project_code": "P2024-4648",
+        "total_cost": 111000.0
+    },
+    {
+        "project_id": 4649,
+        "project_code": "P2024-4649",
+        "total_cost": 75730032.5
+    },
+    {
+        "project_id": 4650,
+        "project_code": "P2024-4650",
+        "total_cost": 14804993.0
+    },
+    {
+        "project_id": 4651,
+        "project_code": "P2024-4651",
+        "total_cost": 31342105.25
+    },
+    {
+        "project_id": 4652,
+        "project_code": "P2024-4652",
+        "total_cost": 12631578.9375
+    },
+    {
+        "project_id": 4653,
+        "project_code": "P2024-4653",
+        "total_cost": 44848826.0
+    },
+    {
+        "project_id": 4654,
+        "project_code": "P2024-4654",
+        "total_cost": 2134000.0
+    },
+    {
+        "project_id": 4655,
+        "project_code": "P2024-4655",
+        "total_cost": 19615452.625
+    },
+    {
+        "project_id": 4656,
+        "project_code": "P2024-4656",
+        "total_cost": 19330512.6875
+    },
+    {
+        "project_id": 4657,
+        "project_code": "P2024-4657",
+        "total_cost": 45000000.0
+    },
+    {
+        "project_id": 4658,
+        "project_code": "P2024-4658",
+        "total_cost": 15003157.875
+    },
+    {
+        "project_id": 4659,
+        "project_code": "P2024-4659",
+        "total_cost": 8441824.21875
+    },
+    {
+        "project_id": 4660,
+        "project_code": "P2024-4660",
+        "total_cost": 2000000.0
+    },
+    {
+        "project_id": 4661,
+        "project_code": "P2024-4661",
+        "total_cost": 10500000.0
+    },
+    {
+        "project_id": 4663,
+        "project_code": "P2024-4663",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 4665,
+        "project_code": "P2024-4665",
+        "total_cost": 29055600.0
+    },
+    {
+        "project_id": 4666,
+        "project_code": "P2024-4666",
+        "total_cost": 15130000.0
+    },
+    {
+        "project_id": 4667,
+        "project_code": "P2024-4667",
+        "total_cost": 17800000.0
+    },
+    {
+        "project_id": 4668,
+        "project_code": "P2024-4668",
+        "total_cost": 45000000.0
+    },
+    {
+        "project_id": 4669,
+        "project_code": "P2024-4669",
+        "total_cost": 16020000.0
+    },
+    {
+        "project_id": 4670,
+        "project_code": "P2024-4670",
+        "total_cost": 15000000.0
+    },
+    {
+        "project_id": 4671,
+        "project_code": "P2024-4671",
+        "total_cost": 5000000.0
+    },
+    {
+        "project_id": 4672,
+        "project_code": "P2024-4672",
+        "total_cost": 7500000.0
+    },
+    {
+        "project_id": 4674,
+        "project_code": "P2024-4674",
+        "total_cost": 20000000.0
+    },
+    {
+        "project_id": 4675,
+        "project_code": "P2024-4675",
+        "total_cost": 30000000.0
+    },
+    {
+        "project_id": 4676,
+        "project_code": "P2024-4676",
+        "total_cost": 2947368.421875
+    },
+    {
+        "project_id": 4677,
+        "project_code": "P2024-4677",
+        "total_cost": 20000000.0
+    },
+    {
+        "project_id": 4678,
+        "project_code": "P2024-4678",
+        "total_cost": 20000000.0
+    },
+    {
+        "project_id": 4682,
+        "project_code": "P2024-4682",
+        "total_cost": 19998000.0
+    },
+    {
+        "project_id": 4683,
+        "project_code": "P2024-4683",
+        "total_cost": 4000000.265625
+    },
+    {
+        "project_id": 4685,
+        "project_code": "P2024-4685",
+        "total_cost": 19894421.0
+    },
+    {
+        "project_id": 4686,
+        "project_code": "P2024-4686",
+        "total_cost": 4717500.0
+    },
+    {
+        "project_id": 4689,
+        "project_code": "P2024-4689",
+        "total_cost": 16000000.0
+    },
+    {
+        "project_id": 4690,
+        "project_code": "P2024-4690",
+        "total_cost": 5000000.0
+    },
+    {
+        "project_id": 4692,
+        "project_code": "P2024-4692",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 4693,
+        "project_code": "P2024-4693",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 4694,
+        "project_code": "P2024-4694",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 4695,
+        "project_code": "P2024-4695",
+        "total_cost": 83159583.0
+    },
+    {
+        "project_id": 4696,
+        "project_code": "P2024-4696",
+        "total_cost": 3000000.0
+    },
+    {
+        "project_id": 4697,
+        "project_code": "P2024-4697",
+        "total_cost": 7000000.0
+    },
+    {
+        "project_id": 4698,
+        "project_code": "P2024-4698",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 4699,
+        "project_code": "P2024-4699",
+        "total_cost": 10500000.0
+    },
+    {
+        "project_id": 4700,
+        "project_code": "P2024-4700",
+        "total_cost": 11000000.0
+    },
+    {
+        "project_id": 4701,
+        "project_code": "P2024-4701",
+        "total_cost": 19900000.0
+    },
+    {
+        "project_id": 4702,
+        "project_code": "P2024-4702",
+        "total_cost": 9999999.8984375
+    },
+    {
+        "project_id": 4704,
+        "project_code": "P2024-4704",
+        "total_cost": 11000000.0
+    },
+    {
+        "project_id": 4705,
+        "project_code": "P2024-4705",
+        "total_cost": 500000.0
+    },
+    {
+        "project_id": 4706,
+        "project_code": "P2024-4706",
+        "total_cost": 40000000.0
+    },
+    {
+        "project_id": 4708,
+        "project_code": "P2024-4708",
+        "total_cost": 2783526.3125
+    },
+    {
+        "project_id": 4709,
+        "project_code": "P2024-4709",
+        "total_cost": 17025699.5
+    },
+    {
+        "project_id": 4710,
+        "project_code": "P2024-4710",
+        "total_cost": 18700000.0
+    },
+    {
+        "project_id": 4711,
+        "project_code": "P2024-4711",
+        "total_cost": 30849499.0
+    },
+    {
+        "project_id": 4712,
+        "project_code": "P2024-4712",
+        "total_cost": 27742000.0
+    },
+    {
+        "project_id": 4713,
+        "project_code": "P2024-4713",
+        "total_cost": 19850000.0
+    },
+    {
+        "project_id": 4718,
+        "project_code": "P2024-4718",
+        "total_cost": 31399473.75
+    },
+    {
+        "project_id": 4719,
+        "project_code": "P2024-4719",
+        "total_cost": 91189750.0
+    },
+    {
+        "project_id": 4720,
+        "project_code": "P2024-4720",
+        "total_cost": 65000000.0
+    },
+    {
+        "project_id": 4722,
+        "project_code": "P2024-4722",
+        "total_cost": 39368421.125
+    },
+    {
+        "project_id": 4723,
+        "project_code": "P2024-4723",
+        "total_cost": 1000000.0
+    },
+    {
+        "project_id": 4725,
+        "project_code": "P2024-4725",
+        "total_cost": 19000000.0
+    },
+    {
+        "project_id": 4726,
+        "project_code": "P2024-4726",
+        "total_cost": 14952000.0
+    },
+    {
+        "project_id": 4727,
+        "project_code": "P2024-4727",
+        "total_cost": 12664350.0
+    },
+    {
+        "project_id": 4728,
+        "project_code": "P2024-4728",
+        "total_cost": 790000.0
+    },
+    {
+        "project_id": 4731,
+        "project_code": "P2024-4731",
+        "total_cost": 24660000.0
+    },
+    {
+        "project_id": 4732,
+        "project_code": "P2024-4732",
+        "total_cost": 72700000.0
+    },
+    {
+        "project_id": 4734,
+        "project_code": "P2024-4734",
+        "total_cost": 16570500.0
+    },
+    {
+        "project_id": 4736,
+        "project_code": "P2024-4736",
+        "total_cost": 18000000.0
+    },
+    {
+        "project_id": 4737,
+        "project_code": "P2024-4737",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 4741,
+        "project_code": "P2024-4741",
+        "total_cost": 114305263.0
+    },
+    {
+        "project_id": 4742,
+        "project_code": "P2024-4742",
+        "total_cost": 33000000.0
+    },
+    {
+        "project_id": 4743,
+        "project_code": "P2024-4743",
+        "total_cost": 4800000.0
+    },
+    {
+        "project_id": 4744,
+        "project_code": "P2024-4744",
+        "total_cost": 48124737.0
+    },
+    {
+        "project_id": 4745,
+        "project_code": "P2024-4745",
+        "total_cost": 7350000.0
+    },
+    {
+        "project_id": 4746,
+        "project_code": "P2024-4746",
+        "total_cost": 289783200.0
+    },
+    {
+        "project_id": 4747,
+        "project_code": "P2024-4747",
+        "total_cost": 3000000.0
+    },
+    {
+        "project_id": 4748,
+        "project_code": "P2024-4748",
+        "total_cost": 13000000.0
+    },
+    {
+        "project_id": 4749,
+        "project_code": "P2024-4749",
+        "total_cost": 6000000.0
+    },
+    {
+        "project_id": 4750,
+        "project_code": "P2024-4750",
+        "total_cost": 2500000.0
+    },
+    {
+        "project_id": 4753,
+        "project_code": "P2024-4753",
+        "total_cost": 3500000.0
+    },
+    {
+        "project_id": 4755,
+        "project_code": "P2024-4755",
+        "total_cost": 5051789.46875
+    },
+    {
+        "project_id": 4756,
+        "project_code": "P2024-4756",
+        "total_cost": 5421052.625
+    },
+    {
+        "project_id": 4757,
+        "project_code": "P2024-4757",
+        "total_cost": 4690526.3125
+    },
+    {
+        "project_id": 4758,
+        "project_code": "P2024-4758",
+        "total_cost": 13647368.4375
+    },
+    {
+        "project_id": 4759,
+        "project_code": "P2024-4759",
+        "total_cost": 5000000.0
+    },
+    {
+        "project_id": 4760,
+        "project_code": "P2024-4760",
+        "total_cost": 7584210.5
+    },
+    {
+        "project_id": 4761,
+        "project_code": "P2024-4761",
+        "total_cost": 5021052.640625
+    },
+    {
+        "project_id": 4762,
+        "project_code": "P2024-4762",
+        "total_cost": 7000000.0
+    },
+    {
+        "project_id": 4763,
+        "project_code": "P2024-4763",
+        "total_cost": 3863157.890625
+    },
+    {
+        "project_id": 4764,
+        "project_code": "P2024-4764",
+        "total_cost": 10336842.125
+    },
+    {
+        "project_id": 4765,
+        "project_code": "P2024-4765",
+        "total_cost": 1500000.0
+    },
+    {
+        "project_id": 4766,
+        "project_code": "P2024-4766",
+        "total_cost": 20000000.0
+    },
+    {
+        "project_id": 4767,
+        "project_code": "P2024-4767",
+        "total_cost": 24000000.0
+    },
+    {
+        "project_id": 4769,
+        "project_code": "P2024-4769",
+        "total_cost": 19956520.0
+    },
+    {
+        "project_id": 4770,
+        "project_code": "P2024-4770",
+        "total_cost": 40008960.0
+    },
+    {
+        "project_id": 4771,
+        "project_code": "P2024-4771",
+        "total_cost": 70000800.0
+    },
+    {
+        "project_id": 4772,
+        "project_code": "P2024-4772",
+        "total_cost": 1052631.578125
+    },
+    {
+        "project_id": 4773,
+        "project_code": "P2024-4773",
+        "total_cost": 3529473.6875
+    },
+    {
+        "project_id": 4774,
+        "project_code": "P2024-4774",
+        "total_cost": 5252631.59375
+    },
+    {
+        "project_id": 4775,
+        "project_code": "P2024-4775",
+        "total_cost": 5073684.21875
+    },
+    {
+        "project_id": 4777,
+        "project_code": "P2024-4777",
+        "total_cost": 20021052.625
+    },
+    {
+        "project_id": 4778,
+        "project_code": "P2024-4778",
+        "total_cost": 10000000.0
+    },
+    {
+        "project_id": 4781,
+        "project_code": "P2024-4781",
+        "total_cost": 13724000.0
+    },
+    {
+        "project_id": 4782,
+        "project_code": "P2024-4782",
+        "total_cost": 2100000.0
+    },
+    {
+        "project_id": 4789,
+        "project_code": "P2024-4789",
+        "total_cost": 12187500.0
+    },
+    {
+        "project_id": 4802,
+        "project_code": "P2024-4802",
+        "total_cost": 45000000.0
+    },
+    {
+        "project_id": 4804,
+        "project_code": "P2024-4804",
+        "total_cost": 12031578.9375
+    }
+]

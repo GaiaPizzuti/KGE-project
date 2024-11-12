@@ -6,7 +6,7 @@ import requests
 
 def download_file(url, path):
     try:
-        response = requests.get(url, timeout=10)
+        response = requests.get(url, timeout=30)
         response.encoding = "utf-8"
         with open(path, "w", encoding="utf-8") as g:
             json.dump(response.json(), g, ensure_ascii=False, indent=4)

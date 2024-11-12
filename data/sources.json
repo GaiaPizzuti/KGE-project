@@ -24,7 +24,13 @@
             "https://research.num.edu.mn/api/du/paper-conference",
             "https://research.num.edu.mn/api/du/v-authors",
             "https://sisi.num.edu.mn/digital_num/api/package/uruunii-medeelel",
-            "https://sisi.num.edu.mn/digital_num/api/package/bagsh-ajilchdiin-ners" 
+            "https://sisi.num.edu.mn/digital_num/api/package/bagsh-ajilchdiin-ners",
+            "https://sisi.num.edu.mn/digital_num/api/package/hicheeliin-huvaari",
+            "https://project.num.edu.mn/api/du/project-overview",
+            "https://project.num.edu.mn/api/du/project-member-sisi",
+            "https://project.num.edu.mn/api/du/project-keywords",
+            "https://project.num.edu.mn/api/du/project-finance",
+            "https://research.num.edu.mn/api/du/v-journal"
         ]
     }
 }

@@ -28,6 +28,12 @@
 - [v-authors](https://research.num.edu.mn/api/du/v-authors)
 - [uruunii-medeelel](https://sisi.num.edu.mn/digital_num/api/package/uruunii-medeelel)
 - [bagsh-ajilchdiin-ners](https://sisi.num.edu.mn/digital_num/api/package/bagsh-ajilchdiin-ners)
+- [hicheeliin-huvaari](https://sisi.num.edu.mn/digital_num/api/package/hicheeliin-huvaari)
+- [curriculum-course](https://sisi.num.edu.mn/digital_num/api/package/curriculum-course)
+- [project-overview](https://project.num.edu.mn/api/du/project-overview)
+- [project-member-sisi](https://project.num.edu.mn/api/du/project-member-sisi)
+- [project-keywords](https://project.num.edu.mn/api/du/project-keywords)
+- [project-finance](https://project.num.edu.mn/api/du/project-finance)
 
 ## List of language sources
 - [Mongolian](https://github.com/kde-milab/LiveDataDREP/blob/main/Language%20Resources/DU-NUM%20Language.csv)
