@@ -1,0 +1,235 @@
+Dataset name,Dataset name in English,Field name in dataset,Field name in Mongolian,Field name in English
+uruunii-medeelel,rooms,uruunii_khuviin_dugaar,өрөөний хувийн дугаар,private room number
+,,khicheeliin_bair,хичээлийн байр,classroom
+,,uruunii_dugaar,өрөөний дугаар,room no
+,,khariyaalakh_surguuliin_dugaar,харьяалах сургуулийн дугаар,No. of the affiliated school
+,,khariyaalakh_surguuliin_ner,харьяалах сургуулийн нэр,name of affiliated school
+,,uruunii_zoriulalt,өрөөний зориулалт,purpose of the room
+,,talbain_khemjee,талбайн хэмжээ,area size
+,,khicheeliin_khuvaari_tavikh_bolomj,хичээлийн хуваарь тавих боломж,Ability to schedule lessons
+,,suudlyn_too,суудлын тоо,number of seats
+,,proyektortoi_esekh,проектортой эсэх,whether it has a projector or not
+,,organization_uri,,
+,,building_id,,
+bagsh-ajilchidiin-ners,staffs,khariyaalakh_buttsiin_negjiin_dugaar,харьяалах бүтцийн нэгжийн дугаар,the structural unit number to which it belongs
+,,khariyaalakh_buttsiin_negjiin_ner,харьяалах бүтцийн нэгжийн нэр,the name of the structural unit to which it belongs
+,,bagsh_ajiltny_khuviin_dugaar,багш ажилтны хувийн дугаар,teacher's personal number
+,,bagsh_ajiltny_ovog,багш ажилтны овог,teacher's last name
+,,bagsh_ajiltny_ner,багш ажилтны нэр,teacher's name
+,,alban_tushaal,албан тушаал,position
+,,tuluv,төлөв,State
+,,ezemshsen_bolovsrol,эзэмшсэн боловсрол,acquired education
+,,imeil_khayag,и-мэйл хаяг,e-mail address
+,,alban_uruunii_khayag,албан өрөөний хаяг,office address
+,,alban_uruunii_dugaar,албан өрөөний дугаар,office no
+,,organization_uri,,
+,,person_uri,,
+,,room_id,,
+,,role_id,,
+,,full_name,,
+,,formatted_name,,
+,,tuluv_id,,
+,,bolovsrol_id,,
+,,affiliation_id,,
+baiguullagiin-butets,organizational_chart,buttsiin_negjiin_dugaar,бүтцийн нэгжийн дугаар,structural unit number
+,,buttsiin_khariyaalagdakh_negjiin_dugaar,бүтцийн харьяалах нэгжийн дугаар,structural unit number
+,,buttsiin_negjiin_ner,бүтцийн нэгжийн нэр,structural unit name
+,,buttsiin_khariyaalagdakh_negjiin_ner,бүтцийн харьяалах нэгжийн нэр,the name of the unit to which the structure belongs
+,,organization_name,,
+course,courses,khicheeliin_dugaar,хичээлийн дугаар,course no
+,,khicheeliin_indyeks,хичээлийн индекс,subject index
+,,mongol_ner,монгол нэр,Mongolian name
+,,angli_ner,англи нэгр,english one
+,,khariyaalakh_butets,харьяалах бүтэц,structure of belonging
+,,khariyaalakh_tenkhim,харьяалах тэнхи,Department of Jurisdiction
+,,surgaltyn_tuvshin,сургалтын түвшин,level of training
+,,bagts_tsag,багц цаг,set time
+,,orokh_uliral,орох улирал,entry season
+,,zorilgo,зорилго,purpose
+,,tovch_aguulga,товч агуулга,summary
+,,todorkhoilson_ogNoo,тодорхойлсон огноо,specified date
+,,lyektsiin_bagts_tsag,лекцийн багц цаг,lecture set time
+,,syeminaryn_bagts_tsag,семинарын багц цаг,workshop set time
+,,laboratoriin_bagts_tsag,лабораторийн багц цаг,lab set time
+,,biye_daaltyn_bagts_tsag,бие даалтын багц цаг,homework set time
+,,dadlaga_sudalgaany_bagts_tsag,дадлага судалгааны багц цаг,practice research package time
+,,course_name,,
+,,term_id,,
+hicheeliin-huvaari,course_schedules,khuvaariin_dugaar,хуваарийн дугаар,schedule no
+,,zaasan_khicheeliin_dugaar,заасан хичээлийн дугаар,specified course number
+,,khicheeliin_jil,хичээлийн жил,school year
+,,uliral,улирал,season
+,,zaasan_bagshiin_ner,заасан багшийн нэр,the name of the designated teacher
+,,bagshiin_khuviin_dugaar,багшийн хувийн дугаар,personal number of the teacher
+,,khicheeliin_ner,хичээлийн нэр,course name
+,,bagts_tsag,багц цаг,set time
+,,khicheeliin_khelber,хичээлийн хэлбэр,form of study
+,,garag,гараг,planet
+,,ekhlekh_tsag,эхлэх цаг,start time
+,,duusakh_tsag,дуусах цаг,end time
+,,oroltyn_too,оролтын тоо,number of inputs
+,,davtamj,давтамж,frequency
+,,ekhlekh_ogNoo,эхлэх огноо,start date
+,,uruunii_khuviin_dugaar,өрөөний хувийн дугаар,private room number
+,,khicheellekh_bair,хичээллэх хэлбэр,form of study
+,,uruunii_dugaar,өрөөний дугаар,room no
+,,uruunii_ner,өрөөний нэр,room name
+,,bolomjit_suudal,боломжит суудал,available seats
+,,khicheeliin_tenkhimiin_dugaar,хичээлийн тэнхимийн дугаар,course department no
+,,khicheeliin_surguuliin_dugaar,хичээлийн сургуулийн дугаар,subject school no
+,,course_schedule_id,,
+,,person_uri,,
+,,start_date_uri,,
+,,room_id,,
+,,organization_uri,,
+,,course_id,,
+,,academic_term,,
+research-interests,research-interests,bagsh_ajiltny_khuviin_dugaar,багш ажилтны хувийн дугаар,teacher's personal number
+,,sudalgaany_chiglel,судалгааны чиглэл,research area
+,,person_uri,,
+,,research_interest,,
+,,interest_id,,
+programdata,programs,khutulburiin_dugaar,хөтөлбөрийн дугаар,program number
+,,khutulburiin_indyeks,хөтөлбөрийн индекс,program index
+,,khutulburiin_mongol_ner,хөтөлбөрийн монгол нэр,Mongolian name of the program
+,,khutulburiin_angli_hel,хөтөлбөрийн англи нэр,English name of the program
+,,akadyemik_tuvshin,академик түвшин,academic level
+,,suraltsakh_khelber,суралцах хэлбэр,form of learning
+,,khariyaalakh_negjiin_dugaar,харьяалах нэгжийн дугаар,the unit number to which it belongs
+,,khariyaalakh_negjiin_ner,харьяалах нэгжийн нэр,the name of the unit to which it belongs
+,,batlagdsan_on,батлагдсан огноо,approved date
+,,program_title,,
+curriculumdata,curricula,surgaltyn_tuluvluguunii_dugaar,сургалтын төлөвлөгөөний дугаар,training plan number
+,,surgaltyn_tuluvluguu,сургалтын төлөвлөгөө,study plan
+,,khutulburiin_dugaar,хөтөлбөрийн дугаар,program number
+,,khutulburiin_ner,хөтөлбөрийн нэр,program name
+,,khutulbur_batlagdsan_on,хөтөлбөр батлагдсан огноо,date of program approval
+,,khutulbur_batlagdsan_uliral,хөтөлбөр батлагдсан улирал,program approved season
+,,curriculum_uri,,
+,,program_uri,,
+curriculum-course,curriculum-courses,surgaltyn_tuluvluguunii_dugaar,сургалтын төлөвлөгөөний дугаар,training plan number
+,,khicheeliin_dugaar,хичээлийн дугаар,course no
+,,khicheeliin_ner,хичээлийн нэр,course name
+,,khelber,хэлбэр,form
+,,ded_khelber,дэд хэлбэр,subform
+project-overview,projects,project_id,төслийн дугаар,project no
+,,project_code,төслийн код,project code
+,,project_name,төслийн нэр,name of Project
+,,project_name_eng,төслийн англи нэр,English name of the project
+,,abstract_mn,төслийн хураангуй,project summary
+,,abstract_eng,төслийн англи хураангуй,English summary of the project
+,,start_date,эхлэх огноо,start date
+,,end_date,төгсөх огноо,end date
+,,sponsor_id,спонсорын дугаар,sponsor no
+,,sponsor_name,спонсорын нэр,sponsor name
+,,performer_id,хэрэгжүүлэгчийн дугаар,implementer number
+,,performer,хэрэгжүүлэгчийн нэр,implementer name
+,,funding_type_id,санхүүжилтийн төрлийн дугаар,funding type number
+,,funding_type,санхүүжилтийн төрөл,type of financing
+,,research_field_id,судалгааны чиглэлийн дугаар,research area number
+,,research_field,судалгааны чиглэл,research area
+,,type_id,төрлийн дугаар,type number
+,,project_type,төслийн төрөл,type of project
+,,project_state_name,төслийн төлөв,project status
+,,project_uri,,
+,,funding_type_uri,,
+,,research_field_uri,,
+,,project_type_uri,,
+,,start_date_uri,,
+,,end_date_uri,,
+,,state_id,,
+project-finance,project-costs,project_id,төслийн дугаар,project no
+,,project_code,төслийн код,project code
+,,total_cost,нийт санхүүжилт,total funding
+project-keywords,project-keywords,project_id,төслийн дугаар,project no
+,,project_code,төслийн код,project code
+,,keyword_id,түлхүүр үгийн дугаар,keyword number
+,,keyword,түлхүүр үг,key word
+,,keyword_uri,,
+project-member-sisi,project-members,project_id,төслийн дугаар,project no
+,,project_code,төслийн код,project code
+,,position,албан тушаалын дугаар,position number
+,,member_position,албан тушаал,position
+,,researcher_id,судлаачийн дугаар,researcher no
+,,first_name,нэр,name
+,,last_name,овог,surname
+,,sisi_id,сиси дугаар,sis number
+,,person_id,хүний дугаар,person number
+,,person_uri,,
+,,project_uri,,
+,,role_id,,
+,,person_position,,
+journal,journals,journal_id,сэтгүүлийн дугаар,journal no
+,,journal_title,сэтгүүлийн нэр,the name of the journal
+,,ISSN,ISSN,ISSN
+,,publisher,хэвлэлийн газар,publishing house
+,,start_date,эхлэх огноо,start date
+,,language,хэл,say
+,,URL,URL,URL
+,,has_impact_factor,импакт фактортой эсэх,whether or not it has an impact factor
+,,impact_factor,импакт фактор,impact factor
+,,journal_title_uri,,
+,,ISSN_extract,,
+,,journal_uri,,
+,,publisher_id,,
+,,start_date_uri,,
+,,language_id,,
+paper-authors,paper-authors,research_id,судалгааны дугаар,research no
+,,order,эрэмбэ,rank
+,,person_id,хүний ид,person identifier
+,,first_name,нэр,name
+,,last_name,овог,surname
+,,research_uri,,
+,,person_uri,,
+,,authorship_id,,
+paper-journals,paper-journals,research_id,судалгааны дугаар,research no
+,,research_title,өгүүллийн нэр,article title
+,,abstract_mn,хураангуй,summary
+,,page_number,хуудасны дугаар,page number
+,,publication_date,хэвлэгдсэн огноо,date of publication
+,,journal_id,сэтгүүлийн дугаар,journal no
+,,volume_number,ботийн дугаар,volume no
+,,issue_number,цувралын дугаар,serial number
+,,link,линк,link
+,,DOI,DOI,DOI
+,,research_type_id,судалгааны төрлийн дугаар,research type number
+,,research_type,судалгааны төрөл,type of research
+,,jounal_ISSN,сэтгүүлийн ISSN,ISSN of the journal
+,,journal_title,сэтгүүлийн нэр,the name of the journal
+,,research_uri,,
+,,publication_date_uri,,
+,,collection_id,,
+,,research_type_uri,,
+,,journal_uri,,
+paper-conference,paper-conferences,research_id,судалгааны дугаар,research no
+,,research_title,өгүүллийн нэр,article title
+,,abstract,хураангуй,summary
+,,conference_id,хурлын дугаар,conference number
+,,page_number,хуудасны дугаар,page number
+,,participation_date,хуралд оролцсон огноо,date of meeting
+,,country,улс,country
+,,volume_number,ботийн дугаар,volume no
+,,research_type_id,,
+,,research_type,,
+,,research_uri,,
+,,participation_date_uri,,
+,,conference_uri,,
+,,research_type_uri,,
+conference,conferences,id,хурлын дугаар,conference number
+,,conf_scope,хурлын түвшин,conference level
+,,name,хурлын нэр,conference name
+,,is_own_muis,МУИС-аас зохион байгуулдаг эсэх,Whether it is organized by NU
+,,author,зохион байгуулагч,organizer
+,,introduction_mn,танилцуулга монголоор,introduction in Mongolian
+,,introduction_en,танилцуулга англиар,Introduction in English
+,,start_date,эхлэх огноо,start date
+,,frequency,зохион байгуулагддаг давтамж,organized frequency
+,,url,URL,URL
+,,lang,зохион байгуулдаг хэл,organized language
+,,email,и-мэйл,e-mail
+,,scope_uri,,
+,,name_uri,,
+,,organizer_uri,,
+,,start_date_uri,,
+,,research_uri,,
+,,language_id,,

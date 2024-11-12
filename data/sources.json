@@ -1,0 +1,30 @@
+{
+    "data_sources": {
+        "UniTN": [
+            "https://raw.githubusercontent.com/datascientiafoundation/LiveDataUNITN-DREP/main/Data%20Resources/DU-UNITN-courses.json",
+            "https://raw.githubusercontent.com/datascientiafoundation/LiveDataUNITN-DREP/main/Data%20Resources/DU-UNITN-people.json",
+            "https://raw.githubusercontent.com/datascientiafoundation/LiveDataUNITN-DREP/main/Data%20Resources/DU-UNITN-organizations.json",
+            "https://raw.githubusercontent.com/datascientiafoundation/LiveDataUNITN-DREP/main/Data%20Resources/DU-UNITN-mindprod-2016.json",
+            "https://raw.githubusercontent.com/datascientiafoundation/LiveDataUNITN-DREP/main/Data%20Resources/DU-UNITN-mindprod-2017.json",
+            "https://raw.githubusercontent.com/datascientiafoundation/LiveDataUNITN-DREP/main/Data%20Resources/DU-UNITN-mindprod-2018.json",
+            "https://raw.githubusercontent.com/datascientiafoundation/LiveDataUNITN-DREP/main/Data%20Resources/DU-UNITN-mindprod-2019.json",
+            "https://raw.githubusercontent.com/datascientiafoundation/LiveDataUNITN-DREP/main/Data%20Resources/DU-UNITN-mindprod-2020.json",
+            "https://raw.githubusercontent.com/datascientiafoundation/LiveDataUNITN-DREP/main/Data%20Resources/DU-UNITN-mindprod-2021.json",
+            "https://raw.githubusercontent.com/datascientiafoundation/LiveDataUNITN-DREP/main/Data%20Resources/DU-UNITN-mindprod-2022.json",
+            "https://raw.githubusercontent.com/datascientiafoundation/LiveDataUNITN-DREP/main/Data%20Resources/DU-UNITN-mindprod-2023.json"
+        ],
+        "NMU": [
+            "https://research.num.edu.mn/api/du/v-conference",
+            "https://sisi.num.edu.mn/digital_num/api/package/curriculum-course",
+            "https://sisi.num.edu.mn/digital_num/api/package/course",
+            "https://sisi.num.edu.mn/digital_num/api/package/curriculumdata",
+            "https://sisi.num.edu.mn/digital_num/api/package/programdata",
+            "https://sisi.num.edu.mn/digital_num/api/package/baiguullagiin-butets",
+            "https://research.num.edu.mn/api/du/paper-journals",
+            "https://research.num.edu.mn/api/du/paper-conference",
+            "https://research.num.edu.mn/api/du/v-authors",
+            "https://sisi.num.edu.mn/digital_num/api/package/uruunii-medeelel",
+            "https://sisi.num.edu.mn/digital_num/api/package/bagsh-ajilchdiin-ners" 
+        ]
+    }
+}
