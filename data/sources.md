@@ -35,5 +35,6 @@
 - [project-keywords](https://project.num.edu.mn/api/du/project-keywords)
 - [project-finance](https://project.num.edu.mn/api/du/project-finance)
 
-## List of language sources
-- [Mongolian](https://github.com/kde-milab/LiveDataDREP/blob/main/Language%20Resources/DU-NUM%20Language.csv)
+## List of language resources
+- [NUM](https://github.com/kde-milab/LiveDataDREP/blob/main/Language%20Resources/DU-NUM%20Language.csv)
+- [UniTN](https://github.com/datascientiafoundation/LiveDataUNITN-DREP/blob/main/Language%20Resources/DU-UNITN%20Language.csv)
