@@ -33,7 +33,7 @@ bagsh-ajilchidiin-ners,staffs,khariyaalakh_buttsiin_negjiin_dugaar,харьяа�
 ,,bolovsrol_id,,
 ,,affiliation_id,,
 baiguullagiin-butets,organizational_chart,buttsiin_negjiin_dugaar,бүтцийн нэгжийн дугаар,structural unit number
-,,buttsiin_khariyaalagdakh_negjiin_dugaar,бүтцийн харьяалах нэгжийн дугаар,structural unit number to which the organization belongs to
+,,buttsiin_khariyaalagdakh_negjiin_dugaar,бүтцийн харьяалах нэгжийн дугаар,the number of the unit to which the structure belongs
 ,,buttsiin_negjiin_ner,бүтцийн нэгжийн нэр,structural unit name
 ,,buttsiin_negjiin_tovchlol,бүтцийн нэгжиин товчлол,Abbreviation for structural unit
 ,,buttsiin_khariyaalagdakh_negjiin_ner,бүтцийн харьяалах нэгжийн нэр,the name of the unit to which the structure belongs
