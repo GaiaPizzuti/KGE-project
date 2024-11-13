@@ -13,7 +13,7 @@
             "https://raw.githubusercontent.com/datascientiafoundation/LiveDataUNITN-DREP/main/Data%20Resources/DU-UNITN-mindprod-2022.json",
             "https://raw.githubusercontent.com/datascientiafoundation/LiveDataUNITN-DREP/main/Data%20Resources/DU-UNITN-mindprod-2023.json"
         ],
-        "NMU": [
+        "NUM": [
             "https://research.num.edu.mn/api/du/v-conference",
             "https://sisi.num.edu.mn/digital_num/api/package/curriculum-course",
             "https://sisi.num.edu.mn/digital_num/api/package/course",
