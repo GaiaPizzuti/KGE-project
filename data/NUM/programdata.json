@@ -1244,7 +1244,6 @@
     },
     {
         "khutulburiin_dugaar": "7d1c64ce614117142547f8cad52c1cf1",
-        "khutulburiin_indyeks": "",
         "khutulburiin_mongol_ner": "Ерөнхий суурь хөтөлбөр",
         "khutulburiin_angli_ner": "123",
         "akadyemik_tuvshin": "Бакалавр",
@@ -1268,7 +1267,6 @@
         "khutulburiin_dugaar": "ad0fa9fa09c9df17d85112ca4e1b39bb",
         "khutulburiin_indyeks": "-",
         "khutulburiin_mongol_ner": "ЗС-ийн иргэнд зориулсан сургалт",
-        "khutulburiin_angli_ner": "",
         "akadyemik_tuvshin": "Бакалавр",
         "suraltsakh_khelber": "Өдрийн сургалт",
         "khariyaalakh_negjiin_dugaar": "d2e46888e9f80ffbb903e99462288451",
@@ -3125,7 +3123,6 @@
     },
     {
         "khutulburiin_dugaar": "1bee690cbbbf267d0771ca8eb679fb3f",
-        "khutulburiin_indyeks": "",
         "khutulburiin_mongol_ner": "ОУХНУС-ийн ерөнхий суурь хөтөлбөр",
         "khutulburiin_angli_ner": "General Education Course",
         "akadyemik_tuvshin": "Бакалавр",
@@ -3598,7 +3595,6 @@
     },
     {
         "khutulburiin_dugaar": "f304229686a76cac1017e23c6b7b8158",
-        "khutulburiin_indyeks": "",
         "khutulburiin_mongol_ner": "Солонгос хэлний анхан 1-р шат",
         "khutulburiin_angli_ner": "   ",
         "akadyemik_tuvshin": "Хэлний бэлтгэл",
@@ -3609,7 +3605,6 @@
     },
     {
         "khutulburiin_dugaar": "c9af46f673bb69d2f1999917cccd67b7",
-        "khutulburiin_indyeks": "",
         "khutulburiin_mongol_ner": "Солонгос хэлний анхан 2-р шат",
         "khutulburiin_angli_ner": "    ",
         "akadyemik_tuvshin": "Хэлний бэлтгэл",
@@ -3620,7 +3615,6 @@
     },
     {
         "khutulburiin_dugaar": "6e5ef4ac6d24338393ea570b0d8df46a",
-        "khutulburiin_indyeks": "",
         "khutulburiin_mongol_ner": "Солонгос хэлний дунд 1-р шат",
         "khutulburiin_angli_ner": "   ",
         "akadyemik_tuvshin": "Хэлний бэлтгэл",
@@ -3642,7 +3636,6 @@
     },
     {
         "khutulburiin_dugaar": "4d2062c4d8bb70d9f859dec102a3744a",
-        "khutulburiin_indyeks": "",
         "khutulburiin_mongol_ner": "Хятад хэлний анхан 1-р шат",
         "khutulburiin_angli_ner": "   ",
         "akadyemik_tuvshin": "Хэлний бэлтгэл",
@@ -3653,7 +3646,6 @@
     },
     {
         "khutulburiin_dugaar": "33a2768fc32e44c79b61108d7109bbbe",
-        "khutulburiin_indyeks": "",
         "khutulburiin_mongol_ner": "Хятад хэлний анхан 2-р шат",
         "khutulburiin_angli_ner": "   ",
         "akadyemik_tuvshin": "Хэлний бэлтгэл",
@@ -3664,7 +3656,6 @@
     },
     {
         "khutulburiin_dugaar": "01913e92b5662e6cab810a12be96e267",
-        "khutulburiin_indyeks": "",
         "khutulburiin_mongol_ner": "Хятад хэлний дунд 1-р шат",
         "khutulburiin_angli_ner": "   ",
         "akadyemik_tuvshin": "Хэлний бэлтгэл",
@@ -3675,7 +3666,6 @@
     },
     {
         "khutulburiin_dugaar": "5d56d8b4b9b9727bc382aef7a4c23c58",
-        "khutulburiin_indyeks": "",
         "khutulburiin_mongol_ner": "Хятад хэлний дунд 2-р шат",
         "khutulburiin_angli_ner": "   ",
         "akadyemik_tuvshin": "Хэлний бэлтгэл",
@@ -3686,7 +3676,6 @@
     },
     {
         "khutulburiin_dugaar": "37ee3f7e3f7cd7137900eb4e8a51828a",
-        "khutulburiin_indyeks": "",
         "khutulburiin_mongol_ner": "Хятад хэлний дээд 1-р шат",
         "khutulburiin_angli_ner": "   ",
         "akadyemik_tuvshin": "Хэлний бэлтгэл",
