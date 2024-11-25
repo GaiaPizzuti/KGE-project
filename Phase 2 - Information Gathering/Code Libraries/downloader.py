@@ -23,7 +23,7 @@ if __name__ == "__main__":
             for university in urls[category]:
                 for url in urls[category][university]:
                     name = url.split("/")[-1]
-                    path = f"./{university}/{name}"
+                    path = f"../{university}/{name}"
                     path = path+".json" if not path.endswith(".json") else path
                     os.makedirs(os.path.dirname(path), exist_ok=True)
                     if os.path.isfile(name):

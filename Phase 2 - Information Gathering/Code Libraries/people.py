@@ -11,5 +11,5 @@ for i in range(1, 52):
     for person in json_data['data']:
         people[person["nominativo"]] = person["email"]
 
-with open ('people_emails.json', 'w') as f:
+with open ('../UniTN/people_emails.json', 'w') as f:
     json.dump(people, f, indent=4, ensure_ascii=False)
