@@ -7,6 +7,8 @@ def recursive_namer(data, data_to_search):
     for key, item in data_tmp.items():
         if key in data_to_search:
             del data[key]
+        elif isinstance(item, str):
+            data[key] = item.strip()
         elif isinstance(item, dict):
             recursive_namer(item, data_to_search)
         elif isinstance(item, list):
@@ -61,14 +63,13 @@ if __name__ == "__main__":
                     if dictionary in data_to_remove:
                         del data[dictionary]
                     elif isinstance(dictionary, dict):
-
                         recursive_namer(dictionary, data_to_remove)
                     elif isinstance(dictionary, list):
-
                         for i in dictionary:
                             if isinstance(i, dict):
-
                                 recursive_namer(i, data_to_remove)
+                    elif isinstance(dictionary, str):
+                        data[dictionary] = data[dictionary].strip()
             elif isinstance(data, dict):
                 recursive_namer(data, data_to_remove)
 
