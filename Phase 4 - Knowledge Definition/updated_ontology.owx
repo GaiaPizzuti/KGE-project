@@ -1,0 +1,1916 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://knowdive.disi.unitn.it/etype"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://knowdive.disi.unitn.it/etype">
+    <Prefix name="" IRI="http://num.edu.mn/ontology#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="etype" IRI="http://knowdive.disi.unitn.it/etype#"/>
+    <Declaration>
+        <Class IRI="#Concept"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Group"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Professor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Project"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Researcher"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Staff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Student"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#University"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Book"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Collection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#ComplexType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Dissertation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Journal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Paper"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Patent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Publication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Research"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Book"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Collection"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Dissertation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Journal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Paper"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Patent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Publication"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#expertise_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_address"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_assistant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_author"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_conference"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_contributor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_coordinator"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_creator"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_department"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_duration"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_editor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_file"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_funding_agency"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_keyword"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_language"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_link"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_location"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_open_access"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_original_work"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_owner"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_participant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_partner"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_professor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_publisher"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_reviewer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_role"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_sponsor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_status"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_subject"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_time"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_translator"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#occupies_role"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#part_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.knowdive.disi.unitn.it/etype#Student"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.knowdive.disi.unitn.it/etype#Supervisor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.knowdive.disi.unitn.it/etype#Titolari"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.knowdive.disi.unitn.it/etype#Tutor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.knowdive.disi.unitn.it/etype#has_Position"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.knowdive.disi.unitn.it/etype#has_organizer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.knowdive.disi.unitn.it/etype#has_research_type"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.knowdive.disi.unitn.it/etype#has_scope"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.knowdive.disi.unitn.it/etype#language"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Abstract"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Address"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Area"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Budget"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Cost"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DOI"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Description"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Email"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Entity_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#First_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Format"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Fund"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ISBN"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ISMN"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ISSN"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Identifier"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Importance"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Keyword"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Middle_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Nationality"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ORC_ID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Open_access"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Phone_number"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Sponsor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Surname"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#URL"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#Citation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#Full_Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#Impact_Factor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#Issue_Number"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#Language"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#Page_Number"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#Position"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#Type_Of_Creative_Work"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#Type_Of_Organization"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#Volume_Number"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#Website"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#Year_Of_Creative_Work"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#cun"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#has_Title"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#pathStructure"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#role"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#structureId"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#structureName"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#GO_6000004"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#ConceptID"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#isEtype"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="#Concept"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="#NLString"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="#SString"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Group"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#ComplexType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <Class IRI="#University"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organization"/>
+        <Class IRI="#University"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Professor"/>
+        <Class IRI="#Staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Project"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Research"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Researcher"/>
+        <Class IRI="#Staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Staff"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Student"/>
+        <Class IRI="#Staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#University"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Book"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Publication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Collection"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Publication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Dissertation"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Research"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Entity"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#ComplexType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Journal"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Publication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Paper"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Publication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Patent"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Research"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Publication"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Research"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Research"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Entity"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Staff"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#GO_6000004"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Book"/>
+        <ObjectProperty IRI="#Publication"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Collection"/>
+        <ObjectProperty IRI="#Publication"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Dissertation"/>
+        <ObjectProperty IRI="http://www.knowdive.disi.unitn.it/etype#has_research_type"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Journal"/>
+        <ObjectProperty IRI="#Publication"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Paper"/>
+        <ObjectProperty IRI="#Publication"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Patent"/>
+        <ObjectProperty IRI="http://www.knowdive.disi.unitn.it/etype#has_research_type"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Publication"/>
+        <ObjectProperty IRI="http://www.knowdive.disi.unitn.it/etype#has_research_type"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_address"/>
+        <ObjectProperty IRI="#has_location"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_assistant"/>
+        <ObjectProperty IRI="#occupies_role"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_author"/>
+        <ObjectProperty IRI="#occupies_role"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_contributor"/>
+        <ObjectProperty IRI="#occupies_role"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_coordinator"/>
+        <ObjectProperty IRI="#occupies_role"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_creator"/>
+        <ObjectProperty IRI="#occupies_role"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_department"/>
+        <ObjectProperty IRI="#has_role"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_editor"/>
+        <ObjectProperty IRI="#occupies_role"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_funding_agency"/>
+        <ObjectProperty IRI="#has_role"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_language"/>
+        <ObjectProperty IRI="http://www.knowdive.disi.unitn.it/etype#language"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_link"/>
+        <ObjectProperty IRI="#has_file"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_open_access"/>
+        <ObjectProperty IRI="#has_file"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_owner"/>
+        <ObjectProperty IRI="#occupies_role"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_participant"/>
+        <ObjectProperty IRI="#occupies_role"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_partner"/>
+        <ObjectProperty IRI="#has_role"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_professor"/>
+        <ObjectProperty IRI="#occupies_role"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_publisher"/>
+        <ObjectProperty IRI="#has_role"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_reviewer"/>
+        <ObjectProperty IRI="#occupies_role"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_role"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_sponsor"/>
+        <ObjectProperty IRI="#has_role"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_translator"/>
+        <ObjectProperty IRI="#occupies_role"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#occupies_role"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.knowdive.disi.unitn.it/etype#Student"/>
+        <ObjectProperty IRI="#occupies_role"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.knowdive.disi.unitn.it/etype#Supervisor"/>
+        <ObjectProperty IRI="#occupies_role"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.knowdive.disi.unitn.it/etype#Titolari"/>
+        <ObjectProperty IRI="#occupies_role"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.knowdive.disi.unitn.it/etype#Tutor"/>
+        <ObjectProperty IRI="#occupies_role"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.knowdive.disi.unitn.it/etype#has_organizer"/>
+        <ObjectProperty IRI="#has_role"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#expertise_in"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#expertise_in"/>
+        <Class IRI="#Staff"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_author"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Research"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_conference"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Paper"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_contributor"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Research"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_coordinator"/>
+        <Class IRI="#Project"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_duration"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Research"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_editor"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Research"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_file"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Research"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_funding_agency"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Research"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_keyword"/>
+        <Class IRI="#Project"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_keyword"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Research"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_location"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_location"/>
+        <Class IRI="#Staff"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_original_work"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Research"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_owner"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Patent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_partner"/>
+        <Class IRI="#Project"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_publisher"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Publication"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_reviewer"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Research"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_role"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_role"/>
+        <Class IRI="#Staff"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_sponsor"/>
+        <Class IRI="#Project"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_status"/>
+        <Class IRI="#Project"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_status"/>
+        <Class IRI="#Staff"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_status"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Research"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_subject"/>
+        <Class IRI="#Project"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_subject"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Research"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_translator"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Research"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#occupies_role"/>
+        <Class IRI="#Staff"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#part_of"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.knowdive.disi.unitn.it/etype#Student"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Research"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.knowdive.disi.unitn.it/etype#Supervisor"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Research"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.knowdive.disi.unitn.it/etype#has_Position"/>
+        <Class IRI="#Staff"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.knowdive.disi.unitn.it/etype#has_research_type"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Research"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.knowdive.disi.unitn.it/etype#language"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Research"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_assistant"/>
+        <Class IRI="#Staff"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_author"/>
+        <Class IRI="#Staff"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_contributor"/>
+        <Class IRI="#Staff"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_coordinator"/>
+        <Class IRI="#Staff"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_creator"/>
+        <Class IRI="#Staff"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_department"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_editor"/>
+        <Class IRI="#Staff"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_funding_agency"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_location"/>
+        <Class IRI="#Location"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_original_work"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Research"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_owner"/>
+        <Class IRI="#Staff"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_participant"/>
+        <Class IRI="#Staff"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_partner"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_professor"/>
+        <Class IRI="#Staff"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_publisher"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_reviewer"/>
+        <Class IRI="#Staff"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_sponsor"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_status"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_translator"/>
+        <Class IRI="#Staff"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#part_of"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.knowdive.disi.unitn.it/etype#Student"/>
+        <Class IRI="#Staff"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.knowdive.disi.unitn.it/etype#Supervisor"/>
+        <Class IRI="#Staff"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.knowdive.disi.unitn.it/etype#Titolari"/>
+        <Class IRI="#Staff"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.knowdive.disi.unitn.it/etype#Tutor"/>
+        <Class IRI="#Staff"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.knowdive.disi.unitn.it/etype#language"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#First_name"/>
+        <DataProperty IRI="#Entity_name"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Keyword"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Middle_name"/>
+        <DataProperty IRI="#Entity_name"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Surname"/>
+        <DataProperty IRI="#Entity_name"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#Full_Name"/>
+        <DataProperty IRI="#Entity_name"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#role"/>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#Position"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#structureId"/>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#Position"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#structureName"/>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#Position"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Abstract"/>
+        <Class IRI="#Project"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Abstract"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Research"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Address"/>
+        <Class IRI="#Organization"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Address"/>
+        <Class IRI="#Staff"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Area"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Research"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Budget"/>
+        <Class IRI="#Project"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Cost"/>
+        <Class IRI="#Project"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#DOI"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Research"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Description"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Entity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Email"/>
+        <ObjectUnionOf>
+            <Class IRI="#Organization"/>
+            <Class IRI="#Staff"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Entity_name"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Entity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#First_name"/>
+        <Class IRI="#Staff"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Fund"/>
+        <Class IRI="#Project"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ISBN"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Book"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ISBN"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Paper"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ISMN"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Book"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ISSN"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Collection"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ISSN"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Journal"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Identifier"/>
+        <Class IRI="#Concept"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Identifier"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#ComplexType"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Importance"/>
+        <Class IRI="#Organization"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Keyword"/>
+        <Class IRI="#Project"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Middle_name"/>
+        <Class IRI="#Staff"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nationality"/>
+        <Class IRI="#Staff"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nationality"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Research"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ORC_ID"/>
+        <Class IRI="#Staff"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Open_access"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Publication"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Phone_number"/>
+        <Class IRI="#Organization"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Phone_number"/>
+        <Class IRI="#Staff"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Sponsor"/>
+        <Class IRI="#Project"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Surname"/>
+        <Class IRI="#Staff"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#URL"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Research"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#Citation"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Research"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#Full_Name"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Entity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#Impact_Factor"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Journal"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#Issue_Number"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Collection"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#Language"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Research"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#Page_Number"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Paper"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#Position"/>
+        <Class IRI="#Staff"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#Type_Of_Creative_Work"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Research"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#Type_Of_Organization"/>
+        <Class IRI="#Organization"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#Volume_Number"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Collection"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#Website"/>
+        <Class IRI="#Organization"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#Year_Of_Creative_Work"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Research"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#cun"/>
+        <Class IRI="#Staff"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#has_Title"/>
+        <Class IRI="http://www.knowdive.disi.unitn.it/etype#Research"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#pathStructure"/>
+        <Class IRI="#Organization"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Abstract"/>
+        <Datatype IRI="#SString"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Address"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Area"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Budget"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Cost"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#DOI"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Description"/>
+        <Datatype IRI="#SString"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Email"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Entity_name"/>
+        <Datatype IRI="#NLString"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#First_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Format"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Fund"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ISBN"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ISMN"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ISSN"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Identifier"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Importance"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Middle_name"/>
+        <Datatype IRI="#NLString"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Nationality"/>
+        <Datatype IRI="#Concept"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ORC_ID"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Open_access"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Phone_number"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Sponsor"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Surname"/>
+        <Datatype IRI="#NLString"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#URL"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#Citation"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#Full_Name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#Impact_Factor"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#Issue_Number"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#Language"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#Page_Number"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#Type_Of_Creative_Work"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#Type_Of_Organization"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#Volume_Number"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#Website"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#Year_Of_Creative_Work"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#cun"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#has_Title"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#pathStructure"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#role"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#structureId"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.knowdive.disi.unitn.it/etype#structureName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#Abstract</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">34070</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#Address</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">45004</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#Area</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">32117</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#Budget</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">63553</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#Cost</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">62716</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#DOI</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#long">118230</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#Description</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#long">3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#Email</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">33270</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#Entity_name</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#long">2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#First_name</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">33531</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#Format</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">25507</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#Fund</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">63194</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#Group</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">59</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#isEtype"/>
+        <IRI>#Group</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#ISBN</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#long">118231</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#ISMN</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#long">118232</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#ISSN</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#long">118233</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#Identifier</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">38423</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#Importance</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">69060</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#Location</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">695</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#Middle_name</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">33530</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#Nationality</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">66486</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#Open_access</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">28020</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#Organization</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">43416</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#isEtype"/>
+        <IRI>#Organization</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#Phone_number</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#long">34494</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#Professor</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">51492</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#isEtype"/>
+        <IRI>#Professor</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#Project</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#long">4100</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Project</IRI>
+        <Literal>Project</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#Researcher</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">52193</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#isEtype"/>
+        <IRI>#Researcher</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#Staff</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">44049</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Staff</IRI>
+        <Literal>Staff</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#Student</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">52021</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#isEtype"/>
+        <IRI>#Student</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#Surname</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">33528</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#URL</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">33647</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#University</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">110305</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#isEtype"/>
+        <IRI>#University</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#expertise_in</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#long">30834</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#has_assistant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">48047</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_assistant</IRI>
+        <Literal xml:lang="en">Assistant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#has_author</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">53828</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_author</IRI>
+        <Literal xml:lang="en">Author</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#has_conference</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#long">118237</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#has_contributor</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">48908</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_contributor</IRI>
+        <Literal xml:lang="en">Contributor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#has_coordinator</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">48923</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_coordinator</IRI>
+        <Literal xml:lang="en">Coordinator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#has_creator</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">46917</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_creator</IRI>
+        <Literal xml:lang="en">Creator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#has_department</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#long">43988</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_department</IRI>
+        <Literal xml:lang="en">Department</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#has_duration</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#long">80582</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#has_editor</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">49388</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_editor</IRI>
+        <Literal xml:lang="en">Editor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#has_file</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#long">34892</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_file</IRI>
+        <Literal xml:lang="en">File</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#has_funding_agency</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#long">45084</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_funding_agency</IRI>
+        <Literal xml:lang="en">Funding agency</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#has_keyword</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#long">33805</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#has_location</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#long">132</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#has_original_work</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">20063</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_original_work</IRI>
+        <Literal xml:lang="en">Original work</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#has_owner</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">51473</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_owner</IRI>
+        <Literal xml:lang="en">Owner</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#has_participant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">51538</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_participant</IRI>
+        <Literal xml:lang="en">Participant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#has_partner</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#long">53137</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_partner</IRI>
+        <Literal xml:lang="en">Partner</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#has_professor</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">51492</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_professor</IRI>
+        <Literal xml:lang="en">Professor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#has_publisher</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#long">43734</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_publisher</IRI>
+        <Literal xml:lang="en">Publisher</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#has_reviewer</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">52213</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_reviewer</IRI>
+        <Literal xml:lang="en">Reviewer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#has_role</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#long">3742</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#has_sponsor</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#long">55947</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_sponsor</IRI>
+        <Literal xml:lang="en">Sponsor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#has_subject</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#long">35361</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#has_time</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">72833</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_time</IRI>
+        <Literal xml:lang="en">Time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#has_translator</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">53382</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_translator</IRI>
+        <Literal xml:lang="en">Translator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#occupies_role</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#long">3742</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#occupies_role</IRI>
+        <Literal xml:lang="en">Occupies role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>#part_of</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#part_of</IRI>
+        <Literal xml:lang="en">Part of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#GO_6000004</IRI>
+        <Literal xml:lang="en">p</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#Book</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">33922</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#Book</IRI>
+        <Literal xml:lang="en">Book</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#Citation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">35615</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#Citation</IRI>
+        <Literal xml:lang="en">Citation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#Collection</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">34696</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#Collection</IRI>
+        <Literal xml:lang="en">Collection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#Dissertation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">33910</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#Dissertation</IRI>
+        <Literal xml:lang="en">Dissertation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#Entity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#long">1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#Full_Name</IRI>
+        <Literal xml:lang="en">Full_Name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#Impact_Factor</IRI>
+        <Literal xml:lang="en">Impact_Factor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#Issue_Number</IRI>
+        <Literal xml:lang="en">Issue_Number</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#Journal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">34707</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#Journal</IRI>
+        <Literal xml:lang="en">Journal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#Language</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">33289</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#Language</IRI>
+        <Literal xml:lang="en">Language</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#Page_Number</IRI>
+        <Literal xml:lang="en">Page_Number</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#Paper</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">33219</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#Paper</IRI>
+        <Literal xml:lang="en">Paper</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#Patent</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">34231</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#Patent</IRI>
+        <Literal xml:lang="en">Patent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#Position</IRI>
+        <Literal xml:lang="en">Position</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#Publication</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">34686</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#Publication</IRI>
+        <Literal xml:lang="en">Publication</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#Research</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">31159</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#isEtype"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#Research</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#Student</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">52021</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#Student</IRI>
+        <Literal xml:lang="en">Student</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#Supervisor</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">53086</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#Supervisor</IRI>
+        <Literal xml:lang="en">Supervisor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#Titolari</IRI>
+        <Literal xml:lang="en">Holder</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ConceptID"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#Tutor</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">48747</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#Tutor</IRI>
+        <Literal xml:lang="en">Tutor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#Type_Of_Creative_Work</IRI>
+        <Literal xml:lang="en">Type_Of_Research</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#Type_Of_Organization</IRI>
+        <Literal xml:lang="en">Type_Of_Organization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#Volume_Number</IRI>
+        <Literal xml:lang="en">Volume_Number</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#Website</IRI>
+        <Literal xml:lang="en">Website</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#Year_Of_Creative_Work</IRI>
+        <Literal xml:lang="en">Year_Of_Research</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#cun</IRI>
+        <Literal xml:lang="en">cun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#has_Position</IRI>
+        <Literal xml:lang="en">has_Position</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#has_Title</IRI>
+        <Literal xml:lang="en">has_Title</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#has_organizer</IRI>
+        <Literal xml:lang="en">has_organizer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#has_research_type</IRI>
+        <Literal xml:lang="en">has_research_type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#has_scope</IRI>
+        <Literal xml:lang="en">has_scope</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#language</IRI>
+        <Literal xml:lang="en">language</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#pathStructure</IRI>
+        <Literal xml:lang="en">pathStructure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#role</IRI>
+        <Literal xml:lang="en">role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#structureId</IRI>
+        <Literal xml:lang="en">structureId</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.knowdive.disi.unitn.it/etype#structureName</IRI>
+        <Literal xml:lang="en">structureName</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
