@@ -1,0 +1,500 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix etype: <http://knowdive.disi.unitn.it/etype#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix karma: <http://isi.edu/integration/karma/ontologies/model/current#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1ijm89dsex1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "v-journal.json" ;
+	km-dev:modelPublicationTime "1739134908302"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"ISSN\"}],[{\"columnName\":\"impact_factor\"}],[{\"columnName\":\"journal_id\"}],[{\"columnName\":\"journal_title\"}],[{\"columnName\":\"URL\"}],[{\"columnName\":\"start_date\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"ISSN\"}],[{\"columnName\":\"impact_factor\"}],[{\"columnName\":\"journal_id\"}],[{\"columnName\":\"journal_title\"}],[{\"columnName\":\"URL\"}],[{\"columnName\":\"start_date\"}]]" ;
+	km-dev:hasModelLabel "v-journal.json" ;
+	km-dev:hasBaseURI "http://localhost:8080/source/" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"journal_id\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.knowdive.disi.unitn.it/etype#Journal\",
+                    \"DomainId\": \"http://www.knowdive.disi.unitn.it/etype#Journal1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#Identifier\",
+                    \"DomainLabel\": \"http://www.knowdive.disi.unitn.it/etype#Journal/Journal1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"journal_id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"journal_id\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"journal_title\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.knowdive.disi.unitn.it/etype#Journal\",
+                    \"DomainId\": \"http://www.knowdive.disi.unitn.it/etype#Journal1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#Title\",
+                    \"DomainLabel\": \"http://www.knowdive.disi.unitn.it/etype#Journal/Journal1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"journal_title\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"journal_title\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"ISSN\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.knowdive.disi.unitn.it/etype#Journal\",
+                    \"DomainId\": \"http://www.knowdive.disi.unitn.it/etype#Journal1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#ISSN\",
+                    \"DomainLabel\": \"http://www.knowdive.disi.unitn.it/etype#Journal/Journal1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ISSN\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ISSN\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"URL\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.knowdive.disi.unitn.it/etype#Journal\",
+                    \"DomainId\": \"http://www.knowdive.disi.unitn.it/etype#Journal1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#URL\",
+                    \"DomainLabel\": \"http://www.knowdive.disi.unitn.it/etype#Journal/Journal1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"URL\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"URL\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"impact_factor\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.knowdive.disi.unitn.it/etype#Journal\",
+                    \"DomainId\": \"http://www.knowdive.disi.unitn.it/etype#Journal1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.knowdive.disi.unitn.it/etype#Impact_Factor\",
+                    \"DomainLabel\": \"http://www.knowdive.disi.unitn.it/etype#Journal/Journal1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"impact_factor\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"impact_factor\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"start_date\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.knowdive.disi.unitn.it/etype#Journal\",
+                    \"DomainId\": \"http://www.knowdive.disi.unitn.it/etype#Journal1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.knowdive.disi.unitn.it/etype#Year_Of_Creative_Work\",
+                    \"DomainLabel\": \"http://www.knowdive.disi.unitn.it/etype#Journal/Journal1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"start_date\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"start_date\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    }
+]""" .
+
+km-dev:TriplesMap_43edc7ba-b55d-4797-aae6-65d675a679f6 a rr:TriplesMap .
+
+_:node1ijm89dsex1 km-dev:hasTriplesMap km-dev:TriplesMap_43edc7ba-b55d-4797-aae6-65d675a679f6 .
+
+km-dev:TriplesMap_43edc7ba-b55d-4797-aae6-65d675a679f6 km-dev:isPartOfMapping _:node1ijm89dsex1 .
+
+_:node1ijm89dsex2 rr:tableName "v-journal.json" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1ijm89dsex1 .
+
+_:node1ijm89dsex1 km-dev:hasLogicalTable _:node1ijm89dsex2 .
+
+km-dev:TriplesMap_43edc7ba-b55d-4797-aae6-65d675a679f6 rr:logicalTable _:node1ijm89dsex2 ;
+	rr:subjectMap _:node1ijm89dsex3 .
+
+_:node1ijm89dsex1 km-dev:hasSubjectMap _:node1ijm89dsex3 .
+
+_:node1ijm89dsex3 km-dev:isPartOfMapping _:node1ijm89dsex1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.knowdive.disi.unitn.it/etype#Journal1" ;
+	rr:class <http://www.knowdive.disi.unitn.it/etype#Journal> ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "Journal1" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_0b5312f2-4a69-4069-9999-10270f1e2d49 rr:predicate etype:ISSN .
+
+_:node1ijm89dsex4 rr:column "ISSN" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ijm89dsex1 .
+
+_:node1ijm89dsex1 km-dev:hasObjectMap _:node1ijm89dsex4 .
+
+km-dev:PredicateObjectMap_0b5312f2-4a69-4069-9999-10270f1e2d49 rr:objectMap _:node1ijm89dsex4 .
+
+km-dev:TriplesMap_43edc7ba-b55d-4797-aae6-65d675a679f6 rr:predicateObjectMap km-dev:PredicateObjectMap_0b5312f2-4a69-4069-9999-10270f1e2d49 .
+
+km-dev:PredicateObjectMap_0b5312f2-4a69-4069-9999-10270f1e2d49 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ijm89dsex1 .
+
+_:node1ijm89dsex1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_0b5312f2-4a69-4069-9999-10270f1e2d49 .
+
+km-dev:PredicateObjectMap_5ddd6701-1373-4694-a999-614ecd49e2aa rr:predicate <http://www.knowdive.disi.unitn.it/etype#Impact_Factor> .
+
+_:node1ijm89dsex5 rr:column "impact_factor" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ijm89dsex1 .
+
+_:node1ijm89dsex1 km-dev:hasObjectMap _:node1ijm89dsex5 .
+
+km-dev:PredicateObjectMap_5ddd6701-1373-4694-a999-614ecd49e2aa rr:objectMap _:node1ijm89dsex5 .
+
+km-dev:TriplesMap_43edc7ba-b55d-4797-aae6-65d675a679f6 rr:predicateObjectMap km-dev:PredicateObjectMap_5ddd6701-1373-4694-a999-614ecd49e2aa .
+
+km-dev:PredicateObjectMap_5ddd6701-1373-4694-a999-614ecd49e2aa a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ijm89dsex1 .
+
+_:node1ijm89dsex1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_5ddd6701-1373-4694-a999-614ecd49e2aa .
+
+km-dev:PredicateObjectMap_acfb0fde-f5f3-4ff4-a386-d094fd3862de rr:predicate etype:Identifier .
+
+_:node1ijm89dsex6 rr:column "journal_id" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ijm89dsex1 .
+
+_:node1ijm89dsex1 km-dev:hasObjectMap _:node1ijm89dsex6 .
+
+km-dev:PredicateObjectMap_acfb0fde-f5f3-4ff4-a386-d094fd3862de rr:objectMap _:node1ijm89dsex6 .
+
+km-dev:TriplesMap_43edc7ba-b55d-4797-aae6-65d675a679f6 rr:predicateObjectMap km-dev:PredicateObjectMap_acfb0fde-f5f3-4ff4-a386-d094fd3862de .
+
+km-dev:PredicateObjectMap_acfb0fde-f5f3-4ff4-a386-d094fd3862de a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ijm89dsex1 .
+
+_:node1ijm89dsex1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_acfb0fde-f5f3-4ff4-a386-d094fd3862de .
+
+km-dev:PredicateObjectMap_cc7214bb-6a7a-449e-8be8-b94e4785fede rr:predicate <http://www.knowdive.disi.unitn.it/etype#Year_Of_Creative_Work> .
+
+_:node1ijm89dsex7 rr:column "start_date" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ijm89dsex1 .
+
+_:node1ijm89dsex1 km-dev:hasObjectMap _:node1ijm89dsex7 .
+
+km-dev:PredicateObjectMap_cc7214bb-6a7a-449e-8be8-b94e4785fede rr:objectMap _:node1ijm89dsex7 .
+
+km-dev:TriplesMap_43edc7ba-b55d-4797-aae6-65d675a679f6 rr:predicateObjectMap km-dev:PredicateObjectMap_cc7214bb-6a7a-449e-8be8-b94e4785fede .
+
+km-dev:PredicateObjectMap_cc7214bb-6a7a-449e-8be8-b94e4785fede a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ijm89dsex1 .
+
+_:node1ijm89dsex1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_cc7214bb-6a7a-449e-8be8-b94e4785fede .
+
+km-dev:PredicateObjectMap_6435600e-91f9-4509-8deb-6238da7d06fe rr:predicate etype:Title .
+
+_:node1ijm89dsex8 rr:column "journal_title" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ijm89dsex1 .
+
+_:node1ijm89dsex1 km-dev:hasObjectMap _:node1ijm89dsex8 .
+
+km-dev:PredicateObjectMap_6435600e-91f9-4509-8deb-6238da7d06fe rr:objectMap _:node1ijm89dsex8 .
+
+km-dev:TriplesMap_43edc7ba-b55d-4797-aae6-65d675a679f6 rr:predicateObjectMap km-dev:PredicateObjectMap_6435600e-91f9-4509-8deb-6238da7d06fe .
+
+km-dev:PredicateObjectMap_6435600e-91f9-4509-8deb-6238da7d06fe a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ijm89dsex1 .
+
+_:node1ijm89dsex1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_6435600e-91f9-4509-8deb-6238da7d06fe .
+
+km-dev:PredicateObjectMap_c161915f-4eb6-4bfb-9bec-45fb00c2b02e rr:predicate etype:URL .
+
+_:node1ijm89dsex9 rr:column "URL" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ijm89dsex1 .
+
+_:node1ijm89dsex1 km-dev:hasObjectMap _:node1ijm89dsex9 .
+
+km-dev:PredicateObjectMap_c161915f-4eb6-4bfb-9bec-45fb00c2b02e rr:objectMap _:node1ijm89dsex9 .
+
+km-dev:TriplesMap_43edc7ba-b55d-4797-aae6-65d675a679f6 rr:predicateObjectMap km-dev:PredicateObjectMap_c161915f-4eb6-4bfb-9bec-45fb00c2b02e .
+
+km-dev:PredicateObjectMap_c161915f-4eb6-4bfb-9bec-45fb00c2b02e a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ijm89dsex1 .
+
+_:node1ijm89dsex1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_c161915f-4eb6-4bfb-9bec-45fb00c2b02e .

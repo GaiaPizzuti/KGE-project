@@ -47,7 +47,10 @@ data_to_remove = [
     "country",
     "sottoTipo",
     "titolari",
-    "tutor"
+    "tutor",
+    "licenza",
+    "formato",
+    "versione"
 ]
 
 if __name__ == "__main__":
