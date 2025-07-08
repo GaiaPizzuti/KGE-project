@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://knowdive.disi.unitn.it/etype#"
-     xml:base="http://knowdive.disi.unitn.it/etype"
+<rdf:RDF xmlns="http://www.knowdive.disi.unitn.it/etype#"
+     xml:base="http://www.knowdive.disi.unitn.it/etype"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:etype="http://knowdive.disi.unitn.it/etype#">
-    <owl:Ontology rdf:about="http://knowdive.disi.unitn.it/etype"/>
+     xmlns:etype="http://www.knowdive.disi.unitn.it/etype#">
+    <owl:Ontology rdf:about="http://www.knowdive.disi.unitn.it/etype"/>
     
 
 
@@ -22,15 +22,15 @@
     
 
 
-    <!-- http://knowdive.disi.unitn.it/etype#ConceptID -->
+    <!-- http://www.knowdive.disi.unitn.it/etype#ConceptID -->
 
-    <owl:AnnotationProperty rdf:about="http://knowdive.disi.unitn.it/etype#ConceptID"/>
+    <owl:AnnotationProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#ConceptID"/>
     
 
 
-    <!-- http://knowdive.disi.unitn.it/etype#isEtype -->
+    <!-- http://www.knowdive.disi.unitn.it/etype#isEtype -->
 
-    <owl:AnnotationProperty rdf:about="http://knowdive.disi.unitn.it/etype#isEtype"/>
+    <owl:AnnotationProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#isEtype"/>
     
 
 
@@ -45,21 +45,21 @@
     
 
 
-    <!-- http://knowdive.disi.unitn.it/etype#Concept -->
+    <!-- http://www.knowdive.disi.unitn.it/etype#Concept -->
 
-    <rdfs:Datatype rdf:about="http://knowdive.disi.unitn.it/etype#Concept"/>
+    <rdfs:Datatype rdf:about="http://www.knowdive.disi.unitn.it/etype#Concept"/>
     
 
 
-    <!-- http://knowdive.disi.unitn.it/etype#NLString -->
+    <!-- http://www.knowdive.disi.unitn.it/etype#NLString -->
 
-    <rdfs:Datatype rdf:about="http://knowdive.disi.unitn.it/etype#NLString"/>
+    <rdfs:Datatype rdf:about="http://www.knowdive.disi.unitn.it/etype#NLString"/>
     
 
 
-    <!-- http://knowdive.disi.unitn.it/etype#SString -->
+    <!-- http://www.knowdive.disi.unitn.it/etype#SString -->
 
-    <rdfs:Datatype rdf:about="http://knowdive.disi.unitn.it/etype#SString"/>
+    <rdfs:Datatype rdf:about="http://www.knowdive.disi.unitn.it/etype#SString"/>
     
 
 
@@ -74,128 +74,11 @@
     
 
 
-    <!-- http://knowdive.disi.unitn.it/etype#expertise_in -->
+    <!-- http://www.knowdive.disi.unitn.it/etype#has_Organization -->
 
-    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#expertise_in">
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Organization"/>
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Staff"/>
-        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#long">30834</ConceptID>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#has_Organization -->
-
-    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_Organization">
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Position"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#has_address -->
-
-    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_address">
-        <rdfs:subPropertyOf rdf:resource="http://knowdive.disi.unitn.it/etype#has_location"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#has_keyword -->
-
-    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_keyword">
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Project"/>
-        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Research"/>
-        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#long">33805</ConceptID>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#has_language -->
-
-    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_language">
-        <rdfs:subPropertyOf rdf:resource="http://www.knowdive.disi.unitn.it/etype#language"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#has_location -->
-
-    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_location">
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Organization"/>
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Staff"/>
-        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#Location"/>
-        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#long">132</ConceptID>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#has_original_work -->
-
-    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_original_work">
-        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Research"/>
-        <rdfs:range rdf:resource="http://www.knowdive.disi.unitn.it/etype#Research"/>
-        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20063</ConceptID>
-        <rdfs:label xml:lang="en">Original work</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#has_publication -->
-
-    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_publication">
-        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Research"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#has_role -->
-
-    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_role">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Organization"/>
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Staff"/>
-        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#long">3742</ConceptID>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#has_staff -->
-
-    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_staff">
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Staff"/>
-        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Research"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#has_status -->
-
-    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_status">
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Project"/>
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Staff"/>
-        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Research"/>
-        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#Concept"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#has_subject -->
-
-    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_subject">
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Project"/>
-        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Research"/>
-        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#long">35361</ConceptID>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#part_of -->
-
-    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#part_of">
-        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Entity"/>
-        <rdfs:range rdf:resource="http://www.knowdive.disi.unitn.it/etype#Entity"/>
-        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</ConceptID>
-        <rdfs:label xml:lang="en">Part of</rdfs:label>
+    <owl:ObjectProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#has_Organization">
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Position"/>
+        <rdfs:range rdf:resource="http://www.knowdive.disi.unitn.it/etype#Organization"/>
     </owl:ObjectProperty>
     
 
@@ -203,28 +86,18 @@
     <!-- http://www.knowdive.disi.unitn.it/etype#has_Position -->
 
     <owl:ObjectProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#has_Position">
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Staff"/>
-        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#Position"/>
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Staff"/>
+        <rdfs:range rdf:resource="http://www.knowdive.disi.unitn.it/etype#Position"/>
         <rdfs:label xml:lang="en">has_Position</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.knowdive.disi.unitn.it/etype#has_research_type -->
+    <!-- http://www.knowdive.disi.unitn.it/etype#has_Staff -->
 
-    <owl:ObjectProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#has_research_type">
+    <owl:ObjectProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#has_Staff">
         <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Research"/>
-        <rdfs:label xml:lang="en">has_research_type</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.knowdive.disi.unitn.it/etype#language -->
-
-    <owl:ObjectProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#language">
-        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Research"/>
-        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#Concept"/>
-        <rdfs:label xml:lang="en">language</rdfs:label>
+        <rdfs:range rdf:resource="http://www.knowdive.disi.unitn.it/etype#Staff"/>
     </owl:ObjectProperty>
     
 
@@ -240,31 +113,30 @@
     
 
 
-    <!-- http://knowdive.disi.unitn.it/etype#Abstract -->
+    <!-- http://www.knowdive.disi.unitn.it/etype#Abstract -->
 
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#Abstract">
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Project"/>
+    <owl:DatatypeProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#Abstract">
         <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Research"/>
-        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#SString"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">34070</ConceptID>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://knowdive.disi.unitn.it/etype#Address -->
+    <!-- http://www.knowdive.disi.unitn.it/etype#Address -->
 
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#Address">
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Organization"/>
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Staff"/>
+    <owl:DatatypeProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#Address">
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Staff"/>
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#University"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45004</ConceptID>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://knowdive.disi.unitn.it/etype#Area -->
+    <!-- http://www.knowdive.disi.unitn.it/etype#Area -->
 
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#Area">
+    <owl:DatatypeProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#Area">
         <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Research"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32117</ConceptID>
@@ -272,271 +144,12 @@
     
 
 
-    <!-- http://knowdive.disi.unitn.it/etype#Budget -->
+    <!-- http://www.knowdive.disi.unitn.it/etype#Budget -->
 
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#Budget">
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Project"/>
+    <owl:DatatypeProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#Budget">
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Project"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
         <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">63553</ConceptID>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#Cost -->
-
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#Cost">
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Project"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">62716</ConceptID>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#DOI -->
-
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#DOI">
-        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Research"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#long">118230</ConceptID>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#Description -->
-
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#Description">
-        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Entity"/>
-        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#SString"/>
-        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#long">3</ConceptID>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#Duration -->
-
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#Duration">
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#Email -->
-
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#Email">
-        <rdfs:domain>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://knowdive.disi.unitn.it/etype#Organization"/>
-                    <rdf:Description rdf:about="http://knowdive.disi.unitn.it/etype#Staff"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:domain>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">33270</ConceptID>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#Entity_name -->
-
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#Entity_name">
-        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Entity"/>
-        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#NLString"/>
-        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#long">2</ConceptID>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#First_name -->
-
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#First_name">
-        <rdfs:subPropertyOf rdf:resource="http://knowdive.disi.unitn.it/etype#Entity_name"/>
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Staff"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">33531</ConceptID>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#Format -->
-
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#Format">
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25507</ConceptID>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#Fund -->
-
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#Fund">
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Project"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">63194</ConceptID>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#ISBN -->
-
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#ISBN">
-        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Book"/>
-        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Paper"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#long">118231</ConceptID>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#ISMN -->
-
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#ISMN">
-        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Book"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#long">118232</ConceptID>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#ISSN -->
-
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#ISSN">
-        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Collection"/>
-        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Journal"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#long">118233</ConceptID>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#Identifier -->
-
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#Identifier">
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Concept"/>
-        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#ComplexType"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38423</ConceptID>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#Importance -->
-
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#Importance">
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Organization"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">69060</ConceptID>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#Keyword -->
-
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#Keyword">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Project"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#Middle_name -->
-
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#Middle_name">
-        <rdfs:subPropertyOf rdf:resource="http://knowdive.disi.unitn.it/etype#Entity_name"/>
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Staff"/>
-        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#NLString"/>
-        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">33530</ConceptID>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#Nationality -->
-
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#Nationality">
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Staff"/>
-        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Research"/>
-        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#Concept"/>
-        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">66486</ConceptID>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#ORC_ID -->
-
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#ORC_ID">
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Staff"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#Open_access -->
-
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#Open_access">
-        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Publication"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
-        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">28020</ConceptID>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#Phone_number -->
-
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#Phone_number">
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Organization"/>
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Staff"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#long">34494</ConceptID>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#Sponsor -->
-
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#Sponsor">
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Project"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#Surname -->
-
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#Surname">
-        <rdfs:subPropertyOf rdf:resource="http://knowdive.disi.unitn.it/etype#Entity_name"/>
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Staff"/>
-        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#NLString"/>
-        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">33528</ConceptID>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#Title -->
-
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#Title">
-        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Publication"/>
-        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Research"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#URL -->
-
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#URL">
-        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Publication"/>
-        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Research"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">33647</ConceptID>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#publication_type -->
-
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#publication_type">
-        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Research"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
@@ -552,13 +165,138 @@
     
 
 
+    <!-- http://www.knowdive.disi.unitn.it/etype#Cost -->
+
+    <owl:DatatypeProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#Cost">
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Project"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">62716</ConceptID>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.knowdive.disi.unitn.it/etype#DOI -->
+
+    <owl:DatatypeProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#DOI">
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Research"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#long">118230</ConceptID>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.knowdive.disi.unitn.it/etype#Description -->
+
+    <owl:DatatypeProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#Description">
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Research"/>
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#University"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#long">3</ConceptID>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.knowdive.disi.unitn.it/etype#Duration -->
+
+    <owl:DatatypeProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#Duration">
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Patent"/>
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Project"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.knowdive.disi.unitn.it/etype#Email -->
+
+    <owl:DatatypeProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#Email">
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Organization"/>
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Staff"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">33270</ConceptID>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.knowdive.disi.unitn.it/etype#Entity_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#Entity_name">
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Entity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#long">2</ConceptID>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.knowdive.disi.unitn.it/etype#First_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#First_name">
+        <rdfs:subPropertyOf rdf:resource="http://www.knowdive.disi.unitn.it/etype#Entity_name"/>
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Staff"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">33531</ConceptID>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.knowdive.disi.unitn.it/etype#Full_Name -->
 
     <owl:DatatypeProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#Full_Name">
-        <rdfs:subPropertyOf rdf:resource="http://knowdive.disi.unitn.it/etype#Entity_name"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.knowdive.disi.unitn.it/etype#Entity_name"/>
         <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Entity"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">Full_Name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.knowdive.disi.unitn.it/etype#Fund -->
+
+    <owl:DatatypeProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#Fund">
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Project"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">63194</ConceptID>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.knowdive.disi.unitn.it/etype#ISBN -->
+
+    <owl:DatatypeProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#ISBN">
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Book"/>
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Paper"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#long">118231</ConceptID>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.knowdive.disi.unitn.it/etype#ISMN -->
+
+    <owl:DatatypeProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#ISMN">
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Book"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#long">118232</ConceptID>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.knowdive.disi.unitn.it/etype#ISSN -->
+
+    <owl:DatatypeProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#ISSN">
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Collection"/>
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Journal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#long">118233</ConceptID>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.knowdive.disi.unitn.it/etype#Identifier -->
+
+    <owl:DatatypeProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#Identifier">
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#ComplexType"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38423</ConceptID>
     </owl:DatatypeProperty>
     
 
@@ -573,12 +311,31 @@
     
 
 
+    <!-- http://www.knowdive.disi.unitn.it/etype#Importance -->
+
+    <owl:DatatypeProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#Importance">
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Organization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">69060</ConceptID>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.knowdive.disi.unitn.it/etype#Issue_Number -->
 
     <owl:DatatypeProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#Issue_Number">
         <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Collection"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">Issue_Number</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.knowdive.disi.unitn.it/etype#Keyword -->
+
+    <owl:DatatypeProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#Keyword">
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Research"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
@@ -594,21 +351,102 @@
     
 
 
+    <!-- http://www.knowdive.disi.unitn.it/etype#Middle_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#Middle_name">
+        <rdfs:subPropertyOf rdf:resource="http://www.knowdive.disi.unitn.it/etype#Entity_name"/>
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Staff"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">33530</ConceptID>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.knowdive.disi.unitn.it/etype#Nationality -->
+
+    <owl:DatatypeProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#Nationality">
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Research"/>
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Staff"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">66486</ConceptID>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.knowdive.disi.unitn.it/etype#ORC_ID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#ORC_ID">
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Staff"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.knowdive.disi.unitn.it/etype#Open_access -->
+
+    <owl:DatatypeProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#Open_access">
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Publication"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">28020</ConceptID>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.knowdive.disi.unitn.it/etype#Page_Number -->
 
     <owl:DatatypeProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#Page_Number">
-        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Paper"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Publication"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:label xml:lang="en">Page_Number</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.knowdive.disi.unitn.it/etype#Position -->
+    <!-- http://www.knowdive.disi.unitn.it/etype#Phone_number -->
 
-    <owl:DatatypeProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#Position">
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Position"/>
-        <rdfs:label xml:lang="en">Position</rdfs:label>
+    <owl:DatatypeProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#Phone_number">
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Organization"/>
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Staff"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#long">34494</ConceptID>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.knowdive.disi.unitn.it/etype#Sponsor -->
+
+    <owl:DatatypeProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#Sponsor">
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Project"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.knowdive.disi.unitn.it/etype#Status -->
+
+    <owl:DatatypeProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#Status">
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Project"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.knowdive.disi.unitn.it/etype#Surname -->
+
+    <owl:DatatypeProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#Surname">
+        <rdfs:subPropertyOf rdf:resource="http://www.knowdive.disi.unitn.it/etype#Entity_name"/>
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Staff"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">33528</ConceptID>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.knowdive.disi.unitn.it/etype#Title -->
+
+    <owl:DatatypeProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#Title">
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Research"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
@@ -626,9 +464,19 @@
     <!-- http://www.knowdive.disi.unitn.it/etype#Type_Of_Organization -->
 
     <owl:DatatypeProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#Type_Of_Organization">
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Organization"/>
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Organization"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">Type_Of_Organization</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.knowdive.disi.unitn.it/etype#URL -->
+
+    <owl:DatatypeProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#URL">
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Research"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">33647</ConceptID>
     </owl:DatatypeProperty>
     
 
@@ -646,7 +494,7 @@
     <!-- http://www.knowdive.disi.unitn.it/etype#Website -->
 
     <owl:DatatypeProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#Website">
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Organization"/>
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#University"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">Website</rdfs:label>
     </owl:DatatypeProperty>
@@ -666,7 +514,7 @@
     <!-- http://www.knowdive.disi.unitn.it/etype#cun -->
 
     <owl:DatatypeProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#cun">
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Staff"/>
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Staff"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">cun</rdfs:label>
     </owl:DatatypeProperty>
@@ -676,9 +524,18 @@
     <!-- http://www.knowdive.disi.unitn.it/etype#pathStructure -->
 
     <owl:DatatypeProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#pathStructure">
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Organization"/>
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Organization"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">pathStructure</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.knowdive.disi.unitn.it/etype#publication_type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#publication_type">
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Research"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
@@ -686,21 +543,18 @@
     <!-- http://www.knowdive.disi.unitn.it/etype#role -->
 
     <owl:DatatypeProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#role">
-        <rdfs:subPropertyOf rdf:resource="http://www.knowdive.disi.unitn.it/etype#Position"/>
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Position"/>
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Position"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">role</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.knowdive.disi.unitn.it/etype#structureId -->
+    <!-- http://www.knowdive.disi.unitn.it/etype#ssd -->
 
-    <owl:DatatypeProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#structureId">
-        <rdfs:subPropertyOf rdf:resource="http://www.knowdive.disi.unitn.it/etype#Position"/>
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Organization"/>
+    <owl:DatatypeProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#ssd">
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Staff"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:label xml:lang="en">structureId</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -708,8 +562,7 @@
     <!-- http://www.knowdive.disi.unitn.it/etype#structureName -->
 
     <owl:DatatypeProperty rdf:about="http://www.knowdive.disi.unitn.it/etype#structureName">
-        <rdfs:subPropertyOf rdf:resource="http://www.knowdive.disi.unitn.it/etype#Position"/>
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Organization"/>
+        <rdfs:domain rdf:resource="http://www.knowdive.disi.unitn.it/etype#Organization"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">structureName</rdfs:label>
     </owl:DatatypeProperty>
@@ -724,109 +577,6 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#Concept -->
-
-    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Concept"/>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#Group -->
-
-    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Group">
-        <rdfs:subClassOf rdf:resource="http://www.knowdive.disi.unitn.it/etype#ComplexType"/>
-        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">59</ConceptID>
-        <isEtype rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isEtype>
-    </owl:Class>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#Location -->
-
-    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Location">
-        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#University"/>
-        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">695</ConceptID>
-    </owl:Class>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#Organization -->
-
-    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Organization">
-        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#University"/>
-        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">43416</ConceptID>
-        <isEtype rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isEtype>
-    </owl:Class>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#Position -->
-
-    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Position">
-        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#Staff"/>
-    </owl:Class>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#Professor -->
-
-    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Professor">
-        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#Staff"/>
-        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">51492</ConceptID>
-        <isEtype rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isEtype>
-    </owl:Class>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#Project -->
-
-    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Project">
-        <rdfs:subClassOf rdf:resource="http://www.knowdive.disi.unitn.it/etype#Research"/>
-        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#long">4100</ConceptID>
-        <rdfs:label>Project</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#Researcher -->
-
-    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Researcher">
-        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#Staff"/>
-        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">52193</ConceptID>
-        <isEtype rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isEtype>
-    </owl:Class>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#Staff -->
-
-    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Staff">
-        <rdfs:subClassOf rdf:resource="http://www.knowdive.disi.unitn.it/etype#Entity"/>
-        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">44049</ConceptID>
-        <rdfs:label>Staff</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#Student -->
-
-    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Student">
-        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#Staff"/>
-        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">52021</ConceptID>
-        <isEtype rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isEtype>
-    </owl:Class>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#University -->
-
-    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#University">
-        <rdfs:subClassOf rdf:resource="http://www.knowdive.disi.unitn.it/etype#Entity"/>
-        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">110305</ConceptID>
-        <isEtype rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isEtype>
-    </owl:Class>
     
 
 
@@ -885,6 +635,16 @@
     
 
 
+    <!-- http://www.knowdive.disi.unitn.it/etype#Organization -->
+
+    <owl:Class rdf:about="http://www.knowdive.disi.unitn.it/etype#Organization">
+        <rdfs:subClassOf rdf:resource="http://www.knowdive.disi.unitn.it/etype#University"/>
+        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">43416</ConceptID>
+        <isEtype rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isEtype>
+    </owl:Class>
+    
+
+
     <!-- http://www.knowdive.disi.unitn.it/etype#Paper -->
 
     <owl:Class rdf:about="http://www.knowdive.disi.unitn.it/etype#Paper">
@@ -901,6 +661,34 @@
         <rdfs:subClassOf rdf:resource="http://www.knowdive.disi.unitn.it/etype#Research"/>
         <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">34231</ConceptID>
         <rdfs:label xml:lang="en">Patent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.knowdive.disi.unitn.it/etype#Position -->
+
+    <owl:Class rdf:about="http://www.knowdive.disi.unitn.it/etype#Position">
+        <rdfs:subClassOf rdf:resource="http://www.knowdive.disi.unitn.it/etype#Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.knowdive.disi.unitn.it/etype#Professor -->
+
+    <owl:Class rdf:about="http://www.knowdive.disi.unitn.it/etype#Professor">
+        <rdfs:subClassOf rdf:resource="http://www.knowdive.disi.unitn.it/etype#Staff"/>
+        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">51492</ConceptID>
+        <isEtype rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isEtype>
+    </owl:Class>
+    
+
+
+    <!-- http://www.knowdive.disi.unitn.it/etype#Project -->
+
+    <owl:Class rdf:about="http://www.knowdive.disi.unitn.it/etype#Project">
+        <rdfs:subClassOf rdf:resource="http://www.knowdive.disi.unitn.it/etype#Research"/>
+        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#long">4100</ConceptID>
+        <rdfs:label>Project</rdfs:label>
     </owl:Class>
     
 
@@ -925,6 +713,46 @@
     
 
 
+    <!-- http://www.knowdive.disi.unitn.it/etype#Researcher -->
+
+    <owl:Class rdf:about="http://www.knowdive.disi.unitn.it/etype#Researcher">
+        <rdfs:subClassOf rdf:resource="http://www.knowdive.disi.unitn.it/etype#Staff"/>
+        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">52193</ConceptID>
+        <isEtype rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isEtype>
+    </owl:Class>
+    
+
+
+    <!-- http://www.knowdive.disi.unitn.it/etype#Staff -->
+
+    <owl:Class rdf:about="http://www.knowdive.disi.unitn.it/etype#Staff">
+        <rdfs:subClassOf rdf:resource="http://www.knowdive.disi.unitn.it/etype#Entity"/>
+        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">44049</ConceptID>
+        <rdfs:label>Staff</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.knowdive.disi.unitn.it/etype#Student -->
+
+    <owl:Class rdf:about="http://www.knowdive.disi.unitn.it/etype#Student">
+        <rdfs:subClassOf rdf:resource="http://www.knowdive.disi.unitn.it/etype#Staff"/>
+        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">52021</ConceptID>
+        <isEtype rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isEtype>
+    </owl:Class>
+    
+
+
+    <!-- http://www.knowdive.disi.unitn.it/etype#University -->
+
+    <owl:Class rdf:about="http://www.knowdive.disi.unitn.it/etype#University">
+        <rdfs:subClassOf rdf:resource="http://www.knowdive.disi.unitn.it/etype#Entity"/>
+        <ConceptID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">110305</ConceptID>
+        <isEtype rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isEtype>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -939,7 +767,7 @@
     <!-- http://www.co-ode.org/ontologies/ont.owl#GO_6000004 -->
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#GO_6000004">
-        <rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Staff"/>
+        <rdf:type rdf:resource="http://www.knowdive.disi.unitn.it/etype#Staff"/>
         <rdfs:label xml:lang="en">p</rdfs:label>
     </owl:NamedIndividual>
 </rdf:RDF>
