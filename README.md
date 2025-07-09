@@ -33,3 +33,14 @@ Competency questions are used to define how the different personas will use the 
 
 # Phase 2
 
+The second phase of the methodology is the **Information Gathering phase**, the objective of this phase is to collect the data needed to create the Knowledge Graph and answer the competency questions. The sources we used are:
+
+- UNITN’s LiveData Platform
+- UniTN's Website
+- NUM's LiveData Platform
+
+The LiveData Platforms provide high quality datasets which are suitable for the use in a Knowledge Graph, on the other hand the Website uses APIs to get information and show it to the user. In order to get a dataset out of the Website we used a python script to automatically access the APIs and extract the data. A complete list of the gathered datasets can be found in the [sources.md](https://github.com/GaiaPizzuti/KGE-project/blob/main/Phase%202%20-%20Information%20Gathering/sources.md) file.
+
+# Phase 3
+
+The third phase of the methodology is the **Language Definition phase**. During this phase, starting from the work performed during the first two phases, a formalized domain-specific language is created. Since the project handles data from both the University of Trento (located in Italy) and the National University of Mongolia (located in Mongolia) it was important to handle the language differences in the data. This was done thanks to the creation of a **Language Resource**. Moreover since the Mongolian language uses the Cyrillic alphabet another it was also necessary to transliterate the characters to the Latin alphabet, this was achieved by using the [cyrtranslit](https://pypi.org/project/cyrtranslit/) python library.
