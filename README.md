@@ -29,7 +29,7 @@ Competency questions are used to define how the different personas will use the 
 
 ## ER model
 
-!TODO insert image
+![er_updated.drawio](./Phase 4 - Knowledge Definition/er_updated_protege.drawio.svg)
 
 # Phase 2
 
@@ -60,3 +60,9 @@ To create this elements the tool [Protége](https://protege.stanford.edu/) is us
 ![etypes](./Phase 4 - Knowledge Definition/etypes.png)
 
 ![data](./Phase 4 - Knowledge Definition/data.png)
+
+## Teleontology visualization
+
+The Teleontology was visualized using [WebVOWL](https://github.com/VisualDataWeb/WebVOWL)
+
+![teleontology](./Phase 4 - Knowledge Definition/teleontology.png)
