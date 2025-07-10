@@ -78,13 +78,22 @@ The fifth and last phase of the iTelos methodology the Teleontology and the data
 During this phase three important steps are performed:
 
 1) **Entity matching**: which employs reconciling different representations of the same real-world entity across
-   multiple datasets. This step was trivial since most of the work necessary for it was performed during the other phases.
-2) **Entity Identification**: which employs giving a unique identifier to each entity and making it consistent across different datasets.
-3) **Entity Mapping**: which employs actually connecting the Teleontology with the datasets, which was done by using Karma.
+   multiple datasets. This step was trivial since most of the work necessary for it was performed during the other phases. <br/>
+2) **Entity Identification**: which employs giving a unique identifier to each entity and making it consistent across different datasets. <br/>
+3) **Entity Mapping**: which employs actually connecting the Teleontology with the datasets, which was done by using Karma. <br/>
 
-After the last step a collection of *.ttl* files was outputted, one for each dataset. An example of the linking process can be found below.
+After the last step a collection of *.ttl* files was outputed, one for each dataset. An example of the linking process can be found below.
 
 ![staff](./Phase 5 - Entity Definition/karma/staff.png)
 
 # Evaluation
+
+This section describes how the coverage of the Knowledge Graph in regard of the Domain Knowledge, which is used to answer the Competency Questions, was evaluated. Six metrics were used, divided into two main categories:
+
+- **Knowledge Layer evaluation**:. This evaluation is performed according to four metrics:
+  - Competency Questions coverage: This evaluation measures how well the Teleontology satisfies the Competency Questions defined at the start of the process. This is calculated using two metrics which indicate the coverage of the entity types and the properties over the Competency Questions;
+  - Reference Ontology coverage:  This evaluates how much of the Teleontology is aligned with reference ontologies, improving its interoperability and potential for reuse. This is calculated using with two metrics which indicate the coverage of the entity types and the properties over the reference Ontology;
+- **Data layer evaluation**: This evaluation measures how many meaningful relationships (object properties) exist between entities. It is composed of two metrics: 
+  - Entity connectivity: This metric is measured as the number of object property connections between ETypes;
+  - Property connectivity: This metric measures the proportion of data properties with non-null values per EType.
 
