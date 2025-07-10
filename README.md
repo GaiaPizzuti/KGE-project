@@ -2,7 +2,11 @@
 This repository contains the project created for the course "Knowledge Graph Engineering" at the University of Trento during the academic year 2024/2025, the title of the project is "International Digital University".
 The project aims to create a knowledge graph that represents the collaborations between universities, in terms of projects, publications and staff. In order to achieve this goal the iTelos methodology has been used, which is a methodology divided in different phases whose result is the final knowledge graph.
 
+> [!NOTE]  
+> This page only contains an extract of the actual work performed to achieve the final Knowledge Graph. To get a better understanding it is strongly advised to read the full report found in the repository.
+
 # Phase 1
+
 In the first phase different aspects of the project are defined:
 - Informal Purpose
 - Domain of Interest
@@ -22,10 +26,10 @@ The personas are the people who will use the knowledge graph, some examples are:
 
 Competency questions are used to define how the different personas will use the knowledge graph, some examples are:
 
-| Personas                | Field                  | Question                                                     |
-| ----------------------- | ---------------------- | ------------------------------------------------------------ |
-| Maria Rossi, Bat Erdene | Research Collaboration | Who are the researchers from both universities that have worked together on a  specific project or paper? |
-| Bat Erdene              | Researcher Information | Which students are pursuing a PhD in Computer Science?       |
+| Personas                        | Field                    | Question                                                     |
+| ------------------------------- | ------------------------ | ------------------------------------------------------------ |
+| Bat Erdene, Enkhtuul Tserendorj | Facilities and Locations | What are the main research facilities available at both the University of Trento and the National University of Mongolia for collaborative research? |
+| Bat Erdene                      | Researcher Information   | Which students are pursuing a PhD in Computer Science?       |
 
 ## ER model
 
@@ -53,7 +57,7 @@ The fourth phase of the methodology is the **Knowledge Definition phase**. This 
 - **Teleology**: which gives a definition and a purpose to the entities;
 - **Teleontology**: which is a combination of the **Ontology** and the **Teleology**. The advantage of the **Teleontology** is that it leverages the rigidity of the Ontology and the flexibility of the Teleology.
 
-To create this elements the tool [Protége](https://protege.stanford.edu/) is used, in the following section some examples of the modeling created using this tool will be shown.
+To create this elements the tool [Protége](https://protege.stanford.edu/) is used, in the following section some examples of the modeling created using this tool will be shown. Additionally to make the modeling of the Teleontology easier the dataset were updated to better align with the keys defined in the Teleology.
 
 ## Examples
 
@@ -66,3 +70,21 @@ To create this elements the tool [Protége](https://protege.stanford.edu/) is us
 The Teleontology was visualized using [WebVOWL](https://github.com/VisualDataWeb/WebVOWL)
 
 ![teleontology](./Phase 4 - Knowledge Definition/teleontology.png)
+
+# Phase 5
+
+The fifth and last phase of the iTelos methodology the Teleontology and the datasets, which were cleaned and aligned in the last phase, are merged. This operation is executed with the tool [Web-Karma](https://github.com/usc-isi-i2/Web-Karma) (also known as Karma).
+
+During this phase three important steps are performed:
+
+1) **Entity matching**: which employs reconciling different representations of the same real-world entity across
+   multiple datasets. This step was trivial since most of the work necessary for it was performed during the other phases.
+2) **Entity Identification**: which employs giving a unique identifier to each entity and making it consistent across different datasets.
+3) **Entity Mapping**: which employs actually connecting the Teleontology with the datasets, which was done by using Karma.
+
+After the last step a collection of *.ttl* files was outputted, one for each dataset. An example of the linking process can be found below.
+
+![staff](./Phase 5 - Entity Definition/karma/staff.png)
+
+# Evaluation
+
