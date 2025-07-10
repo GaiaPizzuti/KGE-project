@@ -1,3 +1,4 @@
 Phase[[:space:]]5[[:space:]]-[[:space:]]Entity[[:space:]]Definition/publications_unitn.ttl filter=lfs diff=lfs merge=lfs -text
 */publications_unitn.ttl filter=lfs diff=lfs merge=lfs -text
 Phase[[:space:]]5[[:space:]]-[[:space:]]Entity[[:space:]]Definition/karma/publications_unitn.ttl filter=lfs diff=lfs merge=lfs -text
+**/publications_unitn.ttl filter=lfs diff=lfs merge=lfs -text
