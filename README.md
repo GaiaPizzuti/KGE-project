@@ -43,4 +43,20 @@ The LiveData Platforms provide high quality datasets which are suitable for the 
 
 # Phase 3
 
-The third phase of the methodology is the **Language Definition phase**. During this phase, starting from the work performed during the first two phases, a formalized domain-specific language is created. Since the project handles data from both the University of Trento (located in Italy) and the National University of Mongolia (located in Mongolia) it was important to handle the language differences in the data. This was done thanks to the creation of a **Language Resource**. Moreover since the Mongolian language uses the Cyrillic alphabet another it was also necessary to transliterate the characters to the Latin alphabet, this was achieved by using the [cyrtranslit](https://pypi.org/project/cyrtranslit/) python library.
+The third phase of the methodology is the **Language Definition phase**. During this phase, starting from the work performed during the first two phases, a formalized domain-specific language is created. Since the project handles data from both the University of Trento (located in Italy) and the National University of Mongolia (located in Mongolia) it was important to handle the language differences in the data. This was done thanks to the creation of a **Language Resource**. Moreover since the Mongolian language uses the Cyrillic alphabet, before translating these terms it was also necessary to transliterate the characters to the Latin alphabet, this was achieved by using the [cyrtranslit](https://pypi.org/project/cyrtranslit/) python library.
+
+# Phase 4
+
+The fourth phase of the methodology is the **Knowledge Definition phase**. This phase requires the modeling of the:
+
+- **Ontology**: which is used to formalize the relationship between entities;
+- **Teleology**: which gives a definition and a purpose to the entities;
+- **Teleontology**: which is a combination of the **Ontology** and the **Teleology**. The advantage of the **Teleontology** is that it leverages the rigidity of the Ontology and the flexibility of the Teleology.
+
+To create this elements the tool [Protége](https://protege.stanford.edu/) is used, in the following section some examples of the modeling created using this tool will be shown.
+
+## Examples
+
+![etypes](./Phase 4 - Knowledge Definition/etypes.png)
+
+![data](./Phase 4 - Knowledge Definition/data.png)
